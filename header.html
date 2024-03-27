@@ -7,60 +7,59 @@
     <script src="https://kit.fontawesome.com/f754260589.js" crossorigin="anonymous"></script>
     <title>header</title>
     <link href="CSS/headerStyle.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <body>
-    <!--
-    <div class="warp" id="header">
-        <div class="container">
-            <a onclick="javascript:window.scrollTo(0,0)" class="yonghyeon">YONGHYEON</a> 
-            <div class="menu" style="display: flex;">
-                <div class="hLink" style="cursor: pointer;" onclick="location.href='https://www.naver.com/'">
-                    네이버
-                </div>
-                <div class="hLink" style="cursor: pointer;"  onclick="location.href='https://www.google.com/'">
-                    구글
-                </div>
-                <div class="hLink" style="cursor: pointer;" onclick="location.href='https://www.daum.net/'">
-                    다음
-                </div>
-                <div class="hLink" style="cursor: pointer;" onclick="location.href='https://www.nike.com/kr/'">
-                    나이키
-                </div>
-                <div class="hLink" style="cursor: pointer;" onclick="location.href='https://www.nate.com/'">
-                    네이트
-                </div>
-                <div class="hLink" style="cursor: pointer;" onclick="location.href='map4.html'">
-                    지도보기
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
+
+    
+    
     <nav class="navBar">
         <div class="navBar-logo">
             <a onclick="javascript:window.scrollTo(0,0)">YONGHYEON</a> 
         </div>
         <ul class="navBar-menu">
-            <li><a href="https://www.naver.com">네이버</a></li>
-            <li><a href="https://www.google.com">구글</a></li>
-            <li><a href="https://www.daum.net">다음</a></li>
-            <li><a href="https://www.nike.com/kr">나이키</a></li>
+            <!-- <li><a href="https://www.naver.com">나를 소개합니다.</a></li> -->
+            <li><a href="https://www.daum.net">MY INTRODUCE</a></li>
+            <li><a href="#subTitle" class="scroll_move">stackList</a></li>
+            <li><a href="https://www.daum.net">CAREER</a></li>
+            <li><a href="https://www.nike.com/kr">CONTACT</a></li>
         </ul>
         <!--
         <a href="#" class="navBar-toggleBtn"><i class="fa-duotone fa-bars"></i></a>
             -->
     </nav>
     <script>
-        const toggleBtn = document.querySelector('.navBar-toggleBtn');
-        const menu = document.querySelector('.navBar-menu');
+        //document.getElementById("stackList").addEventListener('click',stackList)
+        const stackList = () => {
+                window.scrollTo(0, window.scrollY - 300);
+            }
+    </script>
 
+    <script>
+        //const toggleBtn = document.querySelector('.navBar-toggleBtn');
+        //const menu = document.querySelector('.navBar-menu');
+/*
         toggleBtn.addEventListener('click', () => {
             menu.classList.toggle('active');
-        })
+        })*/
     </script>
+    <script>
+        $(document).ready(function($) {
+            $(".scroll_move").click(function(event){
+                console.log(".scroll_move");         
+                event.preventDefault();
+                $('html, body').animate({scrollTop : 0},800);
+            });
+
+        });
+
+    </script>
+    
 </body>
 
 </html>

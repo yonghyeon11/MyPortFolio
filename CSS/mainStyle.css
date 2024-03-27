@@ -36,8 +36,8 @@
 .subTitle h3{
     font-size: 2.5em;
     color: #1a1a1a;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     /*line-height: 5px;*/
     text-transform: uppercase;
 }
@@ -52,8 +52,8 @@
     margin-top: 5px;
     font-size: 2.5rem;
     color: #1a1a1a;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     /*line-height: 5px;*/
     text-transform: uppercase;
 }
@@ -62,7 +62,7 @@
     display: flex; 
     overflow: hidden;
     /*border : 1px solid salmon;*/
-    background-color: #fcf6e3;
+    background-color: #ffffff;
 }
 
 .wrap .rolling-list ul { 
@@ -100,46 +100,20 @@
 .wrap .rolling-list ul li:nth-child(1) { 
     background-color: #F8E1E3;
     width: 175px;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 20px;
     text-align: center;
 }
 .wrap .rolling-list ul li:nth-child(7) { 
     background-color: #FFEAB5; 
     width: 175px;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 20px;
     text-align: center;
 }
-/* 이미지 배경
-.wrap .rolling-list ul li:nth-child(3) { 
-	background-color: #D3E7DC;
-}
-.wrap .rolling-list ul li:nth-child(4) { 
-	background-color: #A6C1E8;
-}
-.wrap .rolling-list ul li:nth-child(5) { 
-	background-color: #F8E1E3;
-}
-.wrap .rolling-list ul li:nth-child(6) { 
-	background-color: #FFEAB5;
-}
-.wrap .rolling-list ul li:nth-child(7) { 
-	background-color: #D3E7DC;
-}
-.wrap .rolling-list ul li:nth-child(8) { 
-	background-color: #F8E1E3;
-}
-.wrap .rolling-list ul li:nth-child(9) { 
-	background-color: #A6C1E8;
-}
 
-.wrap .rolling-list ul li:nth-child(even) {
-	margin-top: 80px;
-}
-*/
 
 .newList2{
     padding-top: 56.25%;
@@ -208,7 +182,7 @@ iframe{
     width: 100%;
     max-width: 60.25rem;
     padding: 2rem 0rem;
-    margin: 5px auto;
+    margin: 11px auto;
 }
 
 .aboutMeCenter2{
@@ -269,27 +243,27 @@ iframe{
 
 .aboutMiniTitle{
     margin-bottom: 0.5rem;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1em;
 }
 
 .aboutMiniTitle-detail{
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.25rem;
 }
 
 .aboutMiniTitle-top{
     margin-bottom: 0.5rem;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
 }
 
 .aboutMiniTitle-detail-top{
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.25rem;
 }
 
@@ -412,5 +386,102 @@ iframe{
     .typing h1{
         width: 90%;
         font-size: 1rem;
+    }
+  }
+
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  
+  
+  .c2 {
+    height: 400px;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .slide-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .slide {
+    position: absolute;
+    display: none;
+    z-index: 0;
+  }
+  .slide.enabled {
+    display: block;
+  }
+  
+  .slide-big-text p {
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.35;
+    letter-spacing: -1.5px;
+    word-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  
+  .slide-small-text {
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  
+  .slide-small-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .scdown {
+    position: absolute;
+    padding: 30px 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    bottom: 0px;
+  }
+  
+  .to-scroll-main{
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .to-scroll-animation span{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #111111;
+  }
+    
+  .to-scroll-animation .to-scroll-two_text {
+    display: inline-block;
+    transform-origin: center;
+    padding: 0 0.5rem;
+    color: #111111;
+    animation: animate 2s infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
     }
   }
