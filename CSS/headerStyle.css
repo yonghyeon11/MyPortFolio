@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Jua', sans-serif;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 #header {
@@ -47,8 +47,8 @@ body{
     line-height: 43px;
     color: black;
     transition: all 0.5s ease 0s;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -112,8 +112,8 @@ body{
 .navBar-logo a{
     font-size: 30px;
     /*margin: 0px 110px;*/
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .navBar-logo a:hover{
