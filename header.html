@@ -13,7 +13,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <body>
 
     
@@ -24,10 +24,10 @@
         </div>
         <ul class="navBar-menu">
             <!-- <li><a href="https://www.naver.com">나를 소개합니다.</a></li> -->
-            <li><a href="https://www.daum.net">MY INTRODUCE</a></li>
-            <li><a href="#subTitle" class="scroll_move">stackList</a></li>
+            <li><a href="https://www.daum.net">INTRODUCE</a></li>
+            <li><a href="#stackList" class="scroll_move">STACKLIST</a></li>
             <li><a href="https://www.daum.net">CAREER</a></li>
-            <li><a href="https://www.nike.com/kr">CONTACT</a></li>
+            <li><a href="#footer_top" class="scroll_move">CONTACT</a></li>
         </ul>
         <!--
         <a href="#" class="navBar-toggleBtn"><i class="fa-duotone fa-bars"></i></a>
@@ -41,14 +41,6 @@
     </script>
 
     <script>
-        //const toggleBtn = document.querySelector('.navBar-toggleBtn');
-        //const menu = document.querySelector('.navBar-menu');
-/*
-        toggleBtn.addEventListener('click', () => {
-            menu.classList.toggle('active');
-        })*/
-    </script>
-    <script>
         $(document).ready(function($) {
             $(".scroll_move").click(function(event){
                 console.log(".scroll_move");         
@@ -59,6 +51,7 @@
         });
 
     </script>
+
     
 </body>
 

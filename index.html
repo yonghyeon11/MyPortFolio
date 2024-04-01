@@ -15,7 +15,7 @@
 </style>
 </head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <body>
     <div id="app">
@@ -53,20 +53,13 @@
             <div class="slide slide-left sl4" ref="sl4">
               <div class="sl4-content">
                 <div class="slide-big-text" ref="sl4-big">
-                  <p ref="sl4-big-1">자세한</p>
-                  <p ref="sl4-big-2">설명이</p>
-                  <p ref="sl4-big-3">있을 수도 있어요</p>
+                  
                 </div>
                 <div class="slide-small-text">
                   <p>
-                    그렇습니다.
+                    메뉴 선택 시 해당 메뉴로 이동합니다.
                   </p>
-                  <p>
-                    이건
-                  </p>
-                  <p>
-                    글씨가 좀 작습니다.
-                  </p>
+
                 </div>
               </div>
             </div>
@@ -86,13 +79,34 @@
               </div>
               -->
             </div>
+
+            <div class="slide slide-left sl5" ref="sl5">
+              <div class="slide-big-text">
+                <nav class="navBar">
+                  <!-- <div class="navBar-logo">
+                      <a onclick="javascript:window.scrollTo(0,0)">YONGHYEON</a> 
+                  </div> -->
+                  <ul class="navBar-menu">
+                      <!-- <li><a href="https://www.naver.com">나를 소개합니다.</a></li> -->
+                      <li><a href="https://www.daum.net">INTRODUCE</a></li>
+                      <li><a href="#stackList" class="scroll_move">STACKLIST</a></li>
+                      <li><a href="https://www.daum.net">CAREER</a></li>
+                      <li><a href="#footer_top" class="scroll_move">CONTACT</a></li>
+                  </ul>
+                  <!--
+                  <a href="#" class="navBar-toggleBtn"><i class="fa-duotone fa-bars"></i></a>
+                      -->
+              </nav>
+              </div>
+            </div>
+
             
+            </div>
           </div>
-          
+
         </div>
-        
-      </div>
-      <div data-include-path="header.html"></div>
+          
+
         <div class="windowAll"> <!--화면 전체 영역-->
           <div class="fullpage">
               <div class="section">
@@ -176,10 +190,10 @@
                   <!-- 메인 1단 -->
                   <div class="product">
                       <div class="item">
-                          <div class="subTitle" id="subTitle">
-                              <h3>Stack LIST</h3>
+                          <div class="stackList" id="stackList">
+                              <h3>stack list</h3>
                           </div>
-                          <div class="wrap"> <!--베너 영역-->
+                          <div class="wrap" id="wrap"> <!--베너 영역-->
                               <div class="rolling-list" id="rolling-list"> <!-- 원본 베너 -->
                                   <ul>
                                       <li>
@@ -228,7 +242,7 @@
                       </div>
                   </div>
                   <div class="subBenner">
-                      <div class="subTitle">
+                      <div class="stackList">
                           <h3>CAREER</h3>
                       </div>
                       <div class="item">
