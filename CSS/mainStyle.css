@@ -47,12 +47,12 @@ html{
     text-transform: uppercase;
 }
 
-.AboutstackList{
+.AboutSubTitle{
     position: relative;
     text-align: center;
 }
 
-.AboutstackList h3{
+.AboutSubTitle h3{
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 2.5rem;
@@ -186,7 +186,7 @@ iframe{
     -webkit-box-sizing: border-box;
     width: 100%;
     max-width: 60.25rem;
-    padding: 2rem 0rem;
+    padding: 6rem 0rem;
     margin: 11px auto;
 }
 
