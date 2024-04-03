@@ -598,6 +598,7 @@ iframe{
   .slide-small-text p {
     font-size: 18px;
     margin: 0;
+    font-weight: bold;
   }
   
   .scdown {
