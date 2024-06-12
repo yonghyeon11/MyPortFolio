@@ -471,7 +471,7 @@ iframe{
     white-space: nowrap;
     margin: 0;
     position: absolute;
-    /*color: transparent;*/
+    color: transparent;
     left:50%;
     transform: translate(-50%, -50%);
  }
@@ -486,7 +486,7 @@ iframe{
     color: black;
     overflow: hidden;
     border-right: 1px solid black;
-    /*animation: typing 5s steps(31) infinite;*/
+    animation: typing 5s steps(31) infinite;
  }
 
  .introduce{
