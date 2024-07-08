@@ -3,8 +3,45 @@
     margin: 0;
     padding: 0;
   }
+
+
   
+  @font-face {
+    font-family: "AppleSDGothicNeoB00";
+    font-weight: 400;
+    src: url("Fonts/AppleSDGothicNeoB00.ttf")format("ttf");
+  }
+
   
+  body {
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
+  }
+  
+  .experience{
+    padding: 40px 10px 100px 45px;
+    border-radius: 20px;
+    background-color: #e9ecef;
+  }
+
+  .experience li {
+    line-height: 1.8;
+    margin: 0;
+    padding-inline-start: 0.5em;
+    list-style-type : square;
+  }
+
+  .experience li::marker {
+    color: silver;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .experience p {
+    line-height: 1.8;
+    margin: 0;
+    padding-inline-start: 2.7em;
+  }
+
   .container2 {
     width: 100%;
     height: 100%;
@@ -153,6 +190,15 @@ html{
     background-color: #f5f5f7;
 }
 
+.catchButton{
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 15px;
+  max-width: 27rem;
+  margin: 25px;
+  height: 19%;
+  padding: 15px;
+}
 
 .c{
     position: relative;
@@ -180,20 +226,24 @@ html{
     position: relative;
     max-width: 1140px;
     padding: 0 0px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
 }
 .item{
     overflow: hidden;
     max-width: 1920px;
+    width: 100%;
 }
 .stackList{
     position: relative;
-    text-align: center;
+    margin: 2%;
 }
 .stackList h3{
-    font-size: 2.5em;
+    font-size: 2em;
     color: #1a1a1a;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     /*line-height: 5px;*/
     text-transform: uppercase;
 }
@@ -209,16 +259,41 @@ html{
     font-size: 2.5rem;
     color: #1a1a1a;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     /*line-height: 5px;*/
     text-transform: uppercase;
 }
 
+.education{
+  padding: 40px 10px 55px 50px;
+  border-radius: 20px;
+  background-color: #e9ecef;
+}
+
+.education li {
+  line-height: 1.8;
+  margin: 0;
+  padding-inline-start: 0.5em;
+  list-style-type : square;
+}
+
+.education li::marker {
+  color: silver;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.education p {
+  line-height: 1.8;
+  margin: 0;
+  padding-inline-start: 2.7em;
+}
+
 .wrap{
-    display: flex; 
-    overflow: hidden;
-    /*border : 1px solid salmon;*/
-    background-color: #f5f5f7;
+  display: flex;
+  overflow: hidden;
+  background-color: #e9ecef;
+  border-radius: 20px;
 }
 
 .wrap .rolling-list ul { 
@@ -254,18 +329,18 @@ html{
 }
 
 .wrap .rolling-list ul li:nth-child(1) { 
-    background-color: #f5f5f7;
+    background-color: #e9ecef;
     width: 175px;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 .wrap .rolling-list ul li:nth-child(7) { 
-    background-color: #f5f5f7; 
+    background-color: #e9ecef; 
     width: 175px;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -275,7 +350,8 @@ html{
     padding-top: 56.25%;
     position: relative;
     max-width: 100%;
-    border : 1px solid salmon;
+    background-color: #e9ecef;
+    border-radius: 20px;
 }
 iframe{
     position: absolute;
@@ -392,34 +468,46 @@ iframe{
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    max-width: 30rem;
+    max-width: 27rem;
     margin: 30px auto;
     opacity: 74.8;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.aboutMeList2-top2{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  max-width: 27rem;
+  margin: 30px auto;
+  opacity: 74.8;
 }
 
 .aboutMiniTitle{
     margin-bottom: 0.5rem;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 1em;
 }
 
 .aboutMiniTitle-detail{
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 1.25rem;
 }
 
 .aboutMiniTitle-top{
     margin-bottom: 0.5rem;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 1.5rem;
 }
 
 .aboutMiniTitle-detail-top{
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 1.25rem;
 }
 
@@ -461,7 +549,7 @@ iframe{
  }
 
  .typing{
-    margin: 20px auto;
+    margin: 1px auto;
     text-align: center;
  }
 
@@ -477,7 +565,7 @@ iframe{
  }
 
  .typing h1::before{
-    content: "안녕하세요. 사용자 친화적인 서비스를 추구하는 Software Engineer 입니다.";
+    content: "안녕하세요. 사용자 친화적인 서비스를 추구하는 엔지니어 입니다.";
     position: absolute;
     top: 0;
     left: 0;
@@ -546,7 +634,7 @@ iframe{
   }
 
   #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     text-align: center;
   }
   
@@ -643,16 +731,6 @@ iframe{
     }
   }
 
-
-
-
-
-  /*헤더*/
-  body{
-    margin: 0;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-
 #header {
     background-color: #f5f5f7;
     overflow: hidden;
@@ -698,7 +776,7 @@ iframe{
     color: black;
     transition: all 0.5s ease 0s;
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 18px;
 }
 
@@ -706,7 +784,7 @@ iframe{
 .hLink:hover{
     background-color: #BB2649;
     color: white;
-    
+    transition: filter 0.3s ease;
 }
 
 
@@ -763,7 +841,7 @@ iframe{
     font-size: 30px;
     /*margin: 0px 110px;*/
     font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
 }
 
 .navBar-logo a:hover{
@@ -802,7 +880,11 @@ iframe{
 
 .navBar-menu li:hover{
     display: block;
-    background-color: #FFE694;
+    background-color: #d9d9e0;
+}
+
+.navBar-menu a:hover{
+  color: #ffffff;
 }
 
 
@@ -841,3 +923,161 @@ iframe{
         display: flex;
     }
 }
+
+/*modal*/
+#modalOpenButton, #modalCloseButton {
+  cursor: pointer;
+}
+
+input.button-add{
+  background-image: url(/image/notion.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-left: 5%;
+}
+
+input.button-add:hover{
+  filter: invert(70%);
+  transition: filter 0.3s ease;
+  
+}
+
+#modalContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modalContent {
+  position: absolute;
+  background-color: #ffffff;
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+  text-align: center;
+}
+
+#modalContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modalContainer.hidden {
+  display: none;
+}
+
+.resume{
+  margin-left: 15px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.resumeBtn{
+  border: 3px solid #d9d9e0;
+  width: 35%;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'AppleSDGothicNeoB00', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.resumeBtn:hover{
+  background-color: #d9d9e0;
+  color: #ffffff;
+  transition: filter 0.3s ease;
+}
+
+.resumeBtn:hover .downloadImg{
+  color: #ffffff;
+  filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);
+  transition: filter 0.3s ease;
+}
+
+.gitImg{
+  background-image: url(/image/git.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.gitImg:hover{
+  filter: invert(70%);
+  transition: filter 0.3s ease;
+}
+
+.VelogImg{
+  background-image: url(/image/Velog.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.VelogImg:hover{
+  filter: invert(100%);
+  transition: filter 0.3s ease;
+}
+
+.cssImg{
+  background-image: url(/image/CSS.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 15%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.downloadImg{
+  width: 19px;
+  margin-bottom: -4px;
+  transition: filter 0.3s ease;
+  
+}
+
+.htmlImg{
+  background-image: url(/image/HTML.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 15%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
