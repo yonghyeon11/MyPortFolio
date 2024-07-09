@@ -165,7 +165,7 @@
 
 
   /* 모바일 세로 (해상도 ~ 479px)*/ 
-@media all and (max-width:479px) {
+@media all and (max-width:320px) {
     .flip{
         width: 90%;
         height: 200px;
@@ -173,5 +173,9 @@
 
     .footer .footer_top p{
         font-size: 1em;
+    }
+
+    .CONTACT{
+        font-size: 1.5em;
     }
   }
