@@ -599,7 +599,7 @@ iframe{
     }
   }
 
-  @media all and (max-width:375px) {
+  @media all and (max-width:479px) {
 
     .aboutMeList2-top{
         width: 90%;
