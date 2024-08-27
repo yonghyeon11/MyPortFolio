@@ -396,9 +396,9 @@ iframe{
 	100% { transform: translateX(-200%); }
 }
 
-.aboutMeAll{
+/* .aboutMeAll{
     max-width: 1980px;
-}
+} */
 
 .aboutMeCenter{
     -webkit-box-sizing: border-box;
@@ -525,7 +525,7 @@ iframe{
 
 .aboutMeTop{
     overflow: hidden;
-    max-width: 1920px;
+    /* max-width: 1920px; */
 }
 
 .aboutMeTop2{
