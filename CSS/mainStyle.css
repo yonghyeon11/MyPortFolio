@@ -195,7 +195,7 @@ html{
   background-color: #e9ecef;
   border-radius: 15px;
   max-width: 27rem;
-  margin: 25px;
+  /* margin: 25px; */
   height: 19%;
   padding: 15px;
 }
@@ -450,7 +450,7 @@ iframe{
 }
 
 .aboutMeList-top{
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 2rem;
 }
 
