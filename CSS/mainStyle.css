@@ -357,7 +357,7 @@ html{
     
 }
 
-.newList2 div{
+.pj1{
   width: 30%;
   height: 300px;
   text-align: center;
@@ -442,7 +442,7 @@ iframe{
     margin-top: 35px;
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     -webkit-box-pack: justify;
 }
 
