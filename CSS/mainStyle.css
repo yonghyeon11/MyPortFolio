@@ -363,7 +363,7 @@ html{
   text-align: center;
   border-radius: 20px;
   margin: 15px;
-  background-color: gainsboro;
+  
 }
 
 iframe{
@@ -600,6 +600,41 @@ iframe{
     letter-spacing: 0.5px;
  }
 
+ .pj1-skil-list{
+  display: flex;
+    bottom: 45px;
+    position: absolute;
+ }
+
+ .pj1-skil-js{
+  border: 1px solid lightcoral;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+.pj1-skil-css{
+  border: 1px solid royalblue;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+.pj1-skil-html{
+  border: 1px solid orange;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+.pj1-skil-vue{
+  border: 1px solid lime;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
  @keyframes typing{
     0% {
       width: 0%;
@@ -613,6 +648,18 @@ iframe{
   }
 
   @media only screen and (max-width:375px) {
+
+    .pj1-skil-css{
+      width: 50px;
+    }
+
+    .pj1-skil-html{
+      width: 55px;
+    }
+
+    .pj1-skil-html{
+      width: 60px;
+    }
 
     .aboutMeList2-top{
         width: 90%;
@@ -705,6 +752,11 @@ iframe{
 
     .newList2{
       margin: 0 20px 0 20px;
+      display: inline-block;
+    }
+
+    .pj1{
+      width: 85%;
     }
 
     .scrollToTop{
