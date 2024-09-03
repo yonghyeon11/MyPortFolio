@@ -676,6 +676,7 @@ iframe{
     }
 
     .catchButton{
+      display: inline-block;
       background-color: #e9ecef;
       border-radius: 15px;
       margin: 10px;
