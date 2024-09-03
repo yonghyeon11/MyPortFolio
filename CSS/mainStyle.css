@@ -191,7 +191,7 @@ html{
 }
 
 .catchButton{
-    display: block;
+    display: inline-block;
     width: 100%;
     max-width: 27rem;
     margin: 30px auto;
