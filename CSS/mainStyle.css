@@ -191,13 +191,14 @@ html{
 }
 
 .catchButton{
-  width: 100%;
-  background-color: #e9ecef;
-  border-radius: 15px;
-  max-width: 27rem;
-  /* margin: 25px; */
-  height: 19%;
-  padding: 15px;
+    display: block;
+    width: 100%;
+    max-width: 27rem;
+    margin: 30px auto;
+    opacity: 74.8;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    padding: 25px;
 }
 
 .c{
@@ -444,6 +445,7 @@ iframe{
     flex-flow: wrap;
     justify-content: space-around;
     -webkit-box-pack: justify;
+    align-items: center;
 }
 
 .aboutImage{
@@ -478,15 +480,14 @@ iframe{
 }
 
 .aboutMeList2-top{
-    display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    max-width: 27rem;
-    margin: 30px auto;
-    opacity: 74.8;
-    background-color: #e9ecef;
-    border-radius: 15px;
-    padding: 25px;
+  width: 100%;
+  max-width: 27rem;
+  margin: 30px auto;
+  opacity: 74.8;
+  background-color: #e9ecef;
+  border-radius: 15px;
+  padding: 20px;
+  height: 170px;
 }
 
 .aboutMeList2-top2{
@@ -660,6 +661,10 @@ iframe{
     .pj1-skil-html{
       width: 60px;
     }
+
+    .aboutMeList-top{
+      margin-bottom: 2rem;
+  }
 
     .aboutMeList2-top{
         width: 90%;
