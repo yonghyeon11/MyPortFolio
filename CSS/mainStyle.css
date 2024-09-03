@@ -191,7 +191,8 @@ html{
 }
 
 .catchButton{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     width: 100%;
     max-width: 27rem;
     margin: 30px auto;
@@ -676,19 +677,24 @@ iframe{
     }
 
     .catchButton{
-      display: inline-block;
+      display: flex;
+      align-items: center;
       background-color: #e9ecef;
       border-radius: 15px;
       margin: 10px;
       height: 75px;
       padding: 15px;
-      width: 355px;
+      width: 303px;
     }
 
     .catchButton a{
       margin-left: 0px;
       color: inherit;
     text-decoration: none;
+    }
+
+    .resumeBtn{
+      width: 100px;
     }
 
     input.button-add{
@@ -1169,7 +1175,7 @@ input.button-add:hover{
 
 .resumeBtn{
   border: 3px solid #d9d9e0;
-  width: 35%;
+  width: 140px;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
