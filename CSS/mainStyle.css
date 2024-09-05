@@ -664,8 +664,8 @@ iframe{
 
   @media only screen and (max-width:375px) {
 
-    #modalContainer{
-      z-index: 10;
+    .hidden{
+      z-index: 20;
     }
 
     .pj1-skil-css{
