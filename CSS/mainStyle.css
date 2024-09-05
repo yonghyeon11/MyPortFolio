@@ -18,6 +18,7 @@
   }
   
   .experience{
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     padding: 40px 10px 100px 45px;
     border-radius: 20px;
     background-color: #e9ecef;
@@ -266,6 +267,7 @@ html{
 }
 
 .education{
+  font-family: 'AppleSDGothicNeoB00', sans-serif;
   padding: 40px 10px 55px 50px;
   border-radius: 20px;
   background-color: #e9ecef;
@@ -481,6 +483,7 @@ iframe{
 }
 
 .aboutMeList2-top{
+  font-family: 'AppleSDGothicNeoB00', sans-serif;
   width: 100%;
   max-width: 27rem;
   margin: 30px auto;
@@ -488,7 +491,7 @@ iframe{
   background-color: #e9ecef;
   border-radius: 15px;
   padding: 20px;
-  height: 170px;
+  height: 200px;
 }
 
 .aboutMeList2-top2{
@@ -569,6 +572,7 @@ iframe{
  }
 
  .typing h1{
+    font-family: 'AppleSDGothicNeoB00', sans-serif;
     font-size: 1em;
     min-width:11px;
     white-space: nowrap;
@@ -724,9 +728,10 @@ iframe{
     }
 
     .experience{
+      font-family: 'AppleSDGothicNeoB00', sans-serif;
       padding: 15px 10px 0px 15px;
-        height: 265px;
-        margin: 5px;
+      height: 265px;
+      margin: 5px;
     }
 
     .experience h2{
@@ -1027,7 +1032,7 @@ iframe{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5f5f7;
+    /* background-color: #f5f5f7; */
     padding: 13px 30px;
 }
 
@@ -1123,6 +1128,10 @@ iframe{
   cursor: pointer;
 }
 
+#modalCloseButton{
+  margin-top: 60px;
+}
+
 input.button-add{
   background-image: url(/image/notion.png);
   background-color: transparent;
@@ -1142,6 +1151,7 @@ input.button-add:hover{
 }
 
 #modalContainer {
+  z-index: 10;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -1154,11 +1164,12 @@ input.button-add:hover{
 }
 
 #modalContent {
+  border-radius: 20px;
   position: absolute;
   background-color: #ffffff;
-  width: 300px;
-  height: 150px;
-  padding: 15px;
+  width: 600px;
+  height: 300px;
+  padding: 60px;
   text-align: center;
 }
 
