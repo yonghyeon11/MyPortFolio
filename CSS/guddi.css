@@ -32,7 +32,7 @@
     left: 50%;
     top: 70%;
     transform: translate(-50%, 240px);
-    width: 70px;
+    width: 50px;
     display: flex;
     justify-content: center;
     gap: 10px;
