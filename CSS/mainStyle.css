@@ -363,7 +363,7 @@ html{
 
 .pj1{
   width: 30%;
-  height: 300px;
+  height: 330px;
   text-align: center;
   border-radius: 20px;
   margin: 15px;
@@ -608,7 +608,7 @@ iframe{
 
  .pj1-skil-list{
   display: flex;
-    bottom: 45px;
+    bottom: 25px;
     position: absolute;
     flex-wrap: wrap;
  }
@@ -650,6 +650,38 @@ iframe{
   text-align: center;
 }
 
+.pj1-skil-java{
+  border: 1px solid red;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.pj1-skil-sql{
+  border: 1px solid yellow;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.pj1-skil-jsp{
+  border: 1px solid green;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.pj1-skil-xml{
+  border: 1px solid violet;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
  @keyframes typing{
     0% {
       width: 0%;
@@ -668,6 +700,10 @@ iframe{
       z-index: 20;
     }
 
+    .pj1-skil-list{
+      left: 25px;
+    }
+
     .pj1-skil-css{
       width: 50px;
     }
@@ -676,8 +712,24 @@ iframe{
       width: 55px;
     }
 
-    .pj1-skil-html{
-      width: 60px;
+    .pj1-skil-jq{
+      width: 65px;
+    }
+
+    .pj1-skil-java{
+      width: 55px;
+    }
+
+    .pj1-skil-sql{
+      width: 55px;
+    }
+
+    .pj1-skil-jsp{
+      width: 55px;
+    }
+
+    .pj1-skil-xml{
+      width: 55px;
     }
 
     .aboutMeList-top{

@@ -19,7 +19,7 @@ figure.snip1384 {
     transition: all 0.35s ease;
   }
   figure.snip1384 img {
-    height: 280px;
+    height: 300px;
     max-width: 100%;
     backface-visibility: hidden;
     vertical-align: top;
@@ -41,7 +41,7 @@ figure.snip1384 {
   }
   figure.snip1384 figcaption {
     z-index: 1;
-    padding: 40px;
+    padding: 30px;
   }
   figure.snip1384 h3,
   figure.snip1384 .links {
@@ -52,7 +52,7 @@ figure.snip1384 {
   figure.snip1384 h3 {
     line-height: 1.1em;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.15em;
     text-transform: uppercase;
     opacity: 0;
   }
