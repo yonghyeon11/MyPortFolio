@@ -584,6 +584,7 @@ iframe{
  .typing h1{
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     font-size: 1em;
+    font-weight: 700;
     min-width:11px;
     white-space: nowrap;
     margin: 0;
