@@ -204,6 +204,8 @@ html{
 }
 
 .catch-button-control{
+  display: flex;
+  align-items: center;
   position: relative;
   left: 20px;
 }
