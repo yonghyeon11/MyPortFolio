@@ -22,6 +22,7 @@
     padding: 40px 10px 100px 45px;
     border-radius: 20px;
     background-color: #e9ecef;
+    height: 425px;
   }
 
   .experience li {
@@ -192,7 +193,6 @@ html{
 }
 
 .catchButton{
-    display: flex;
     align-items: center;
     width: 100%;
     max-width: 32rem;
@@ -201,6 +201,11 @@ html{
     background-color: #e9ecef;
     border-radius: 15px;
     padding: 25px;
+}
+
+.catch-button-control{
+  position: relative;
+  left: 20px;
 }
 
 .c{
@@ -742,6 +747,7 @@ iframe{
     .aboutMeList2-top{
         width: 90%;
         margin: 5%;
+        height: 235px;
     }
 
     .aboutMeList2-top p{
@@ -749,14 +755,18 @@ iframe{
     }
 
     .catchButton{
-      display: flex;
+      /* display: flex; */
       align-items: center;
       background-color: #e9ecef;
       border-radius: 15px;
       margin: 10px;
       height: 75px;
-      padding: 15px;
+      padding: 12px;
       width: 355px;
+    }
+
+    .catch-button-control{
+      left: 1px;
     }
 
     .catchButton a{
@@ -789,7 +799,7 @@ iframe{
     .experience{
       font-family: 'Spoqa Han Sans Neo', 'sans-serif';
       padding: 15px 10px 0px 15px;
-      height: 265px;
+      height: 315px;
       margin: 5px;
     }
 
@@ -1109,7 +1119,7 @@ iframe{
 
 .navBar-menu a{
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     width: 100%;
