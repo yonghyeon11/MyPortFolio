@@ -67,3 +67,27 @@
 .slider__btn a.previous {
     left: 0;
 }
+
+@media only screen and (max-width:768px){
+  .slider__wrap{
+    width: 95%;
+    height: 300px;
+    top: 30%;
+  }
+
+  .slider__btn a {
+    width: 15%;
+  }
+
+  .slider__thumnail{
+    display: none;
+  }
+
+  .slider__wrap{
+    position: fixed;
+  }
+
+  .slider__img img{
+    object-fit: inherit;
+  }
+}
