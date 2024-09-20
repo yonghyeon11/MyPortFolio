@@ -240,6 +240,11 @@ html{
     justify-content: space-between;
     -webkit-box-pack: justify;
 }
+
+.product2{
+  width: 70%;
+}
+
 .item{
     overflow: hidden;
     width: 100%;
@@ -707,6 +712,11 @@ iframe{
 
   @media only screen and (max-width:375px) {
 
+    .product2{
+      width: 100%;
+    }
+
+
     .hidden{
       z-index: 20;
     }
@@ -803,7 +813,8 @@ iframe{
       font-family: 'Spoqa Han Sans Neo', 'sans-serif';
       padding: 15px 10px 0px 15px;
       height: 340px;
-      margin: 5px;
+      margin-left: 10px;
+      width: 95%;
     }
 
     .experience h2{
@@ -816,6 +827,7 @@ iframe{
 
     .education{
       padding: 15px 10px 10px 15px;
+      width: 95%;
     }
 
     .education h2{
@@ -878,6 +890,7 @@ iframe{
 
     .wrap{
       height: 90px;
+      width: 95%;
     }
 
     .wrap .rolling-list ul li{
@@ -940,7 +953,7 @@ iframe{
   
   .slide-big-text p {
     margin: 0;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
     line-height: 1.35;
     letter-spacing: -1.5px;
@@ -1081,6 +1094,10 @@ iframe{
 }
 */
 @media (max-width:767px) {
+    .product{
+      display: block;
+    }
+
     .image {
         width: 115px;
     }
