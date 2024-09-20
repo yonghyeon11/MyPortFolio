@@ -710,7 +710,7 @@ iframe{
     }
   }
 
-  @media only screen and (max-width:375px) {
+  @media only screen and (max-width:768px) {
 
     .product2{
       width: 100%;
@@ -775,7 +775,7 @@ iframe{
       margin: 10px;
       height: 75px;
       padding: 12px;
-      width: 355px;
+      width: 95%;
     }
 
     .catch-button-control{
@@ -812,7 +812,7 @@ iframe{
     .experience{
       font-family: 'Spoqa Han Sans Neo', 'sans-serif';
       padding: 15px 10px 0px 15px;
-      height: 340px;
+      height: 290px;
       margin-left: 10px;
       width: 95%;
     }
@@ -865,6 +865,7 @@ iframe{
     .newList2{
       margin: 0 20px 0 20px;
       display: inline-block;
+      text-align: center;
     }
 
     .pj1{
@@ -1093,7 +1094,7 @@ iframe{
     cursor: pointer;
 }
 */
-@media (max-width:767px) {
+@media (max-width:1280px) {
     .product{
       display: block;
     }

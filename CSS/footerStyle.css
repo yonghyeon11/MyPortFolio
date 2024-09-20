@@ -179,7 +179,7 @@
 
 
   /* 모바일 세로 (해상도 ~ 479px)*/ 
-@media all and (max-width:375px) {
+@media all and (max-width:768px) {
     .flip{
         width: 90%;
         height: 200px;
