@@ -125,7 +125,10 @@
     position: relative;
     transition: .4s;
     transform-style: preserve-3d;
-  } 
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+  
   
   .front, .back {
     position: absolute;

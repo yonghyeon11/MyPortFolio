@@ -23,6 +23,7 @@
     border-radius: 20px;
     background-color: #e9ecef;
     height: 425px;
+    box-shadow: 5px 5px 10px black;
   }
 
   .experience li {
@@ -201,6 +202,7 @@ html{
     background-color: #e9ecef;
     border-radius: 15px;
     padding: 25px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .catch-button-control{
@@ -248,6 +250,7 @@ html{
 .item{
     overflow: hidden;
     width: 100%;
+    
 }
 .stackList{
     position: relative;
@@ -286,6 +289,7 @@ html{
   padding: 40px 10px 55px 50px;
   border-radius: 20px;
   background-color: #e9ecef;
+  box-shadow: 5px 5px 10px black;
 }
 
 .education li {
@@ -312,6 +316,7 @@ html{
   overflow: hidden;
   background-color: #e9ecef;
   border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .wrap .rolling-list ul { 
@@ -507,6 +512,7 @@ iframe{
   border-radius: 15px;
   padding: 20px;
   height: 165px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .aboutMeList2-top2{
@@ -776,6 +782,7 @@ iframe{
       height: 75px;
       padding: 12px;
       width: 95%;
+      box-shadow: 5px 5px 10px black;
     }
 
     .catch-button-control{
@@ -815,6 +822,7 @@ iframe{
       height: 290px;
       margin-left: 10px;
       width: 95%;
+      box-shadow: 5px 5px 10px black;
     }
 
     .experience h2{
