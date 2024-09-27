@@ -22,8 +22,8 @@
     padding: 40px 10px 100px 45px;
     border-radius: 20px;
     background-color: #e9ecef;
-    height: 425px;
-    box-shadow: 5px 5px 10px black;
+    height: 415px;
+    box-shadow: 5px 5px 10px darkgray;
   }
 
   .experience li {
@@ -202,7 +202,7 @@ html{
     background-color: #e9ecef;
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px darkgray;
 }
 
 .catch-button-control{
@@ -250,11 +250,19 @@ html{
 .item{
     overflow: hidden;
     width: 100%;
-    
 }
+
+.item2{
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 5px 5px 10px darkgray; 
+  border-radius: 20px;
+}
+
 .stackList{
     position: relative;
     margin: 1.5%;
+    
 }
 .stackList h3{
     font-size: 2em;
@@ -289,7 +297,8 @@ html{
   padding: 40px 10px 55px 50px;
   border-radius: 20px;
   background-color: #e9ecef;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px darkgray;
+  width: 98%;
 }
 
 .education li {
@@ -316,7 +325,9 @@ html{
   overflow: hidden;
   background-color: #e9ecef;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px darkgray;
+  width: 98%;
+  height: 115px;
 }
 
 .wrap .rolling-list ul { 
@@ -512,7 +523,7 @@ iframe{
   border-radius: 15px;
   padding: 20px;
   height: 165px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px darkgray;
 }
 
 .aboutMeList2-top2{
@@ -718,6 +729,13 @@ iframe{
 
   @media only screen and (max-width:768px) {
 
+    .item2{
+      overflow: hidden;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: none;
+    }
+
     .product2{
       width: 100%;
     }
@@ -782,7 +800,7 @@ iframe{
       height: 75px;
       padding: 12px;
       width: 95%;
-      box-shadow: 5px 5px 10px black;
+      box-shadow: 5px 5px 10px darkgray;
     }
 
     .catch-button-control{
@@ -822,7 +840,7 @@ iframe{
       height: 290px;
       margin-left: 10px;
       width: 95%;
-      box-shadow: 5px 5px 10px black;
+      box-shadow: 5px 5px 10px darkgray;
     }
 
     .experience h2{
@@ -871,7 +889,8 @@ iframe{
     }
 
     .newList2{
-      margin: 0 20px 0 20px;
+      box-shadow: 5px 5px 10px darkgray;
+      margin: 0 20px 15px 20px;
       display: inline-block;
       text-align: center;
     }
