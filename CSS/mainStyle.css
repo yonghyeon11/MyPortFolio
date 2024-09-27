@@ -480,6 +480,7 @@ iframe{
     justify-content: space-around;
     -webkit-box-pack: justify;
     align-items: center;
+    
 }
 
 .aboutImage{
@@ -1420,6 +1421,7 @@ input.button-add:hover{
   border: none;
   cursor: pointer;
 }
+
 
 
 
