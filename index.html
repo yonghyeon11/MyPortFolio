@@ -30,7 +30,7 @@
           <div class="slide-container">
             <div class="slide" ref="sl1">
               <div class="slide-big-text">
-                <p>안녕하세요.</p>
+                <p style="animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; ">안녕하세요.</p>
               </div>
             </div>
             <div class="scdown" ref="scdown">
@@ -942,7 +942,20 @@
     });
   </script>
 
- 
+  <script>
+    
+    let observer = new IntersectionObserver((e)=>{
+      e.forEach((aboutMe)=>{
+        if(aboutMe.isIntersecting){
+          aboutMe.target.style.opacity = 1;
+        } 
+      })
+    })
+
+    let aboutMeTop = document.querySelectorAll(".AboutSubTitle");
+    observer.observe(aboutMeTop[0]);
+
+  </script>
 
 
 
