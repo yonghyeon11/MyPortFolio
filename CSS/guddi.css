@@ -2,6 +2,10 @@
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
+body{
+  background-color: aliceblue;
+}
+
 .slider__wrap {
     position: absolute;
     left: 50%;
@@ -10,6 +14,8 @@
     width: 1000px;
     height: 600px;
     box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+    border: 30px solid black;
+    border-radius: 15px; 
   }
   .slider__img {
     position: relative;
@@ -88,9 +94,11 @@
   
 
   .slider__wrap{
-    width: 95%;
+    width: 80%;
     height: 300px;
-    top: 30%;
+    top: 40%;
+    position: fixed;
+    border: 15px solid black;
   }
 
   .slider__btn a {
@@ -99,10 +107,6 @@
 
   .slider__thumnail{
     display: none;
-  }
-
-  .slider__wrap{
-    position: fixed;
   }
 
   .slider__img img{
