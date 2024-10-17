@@ -23,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <body>
-    <div id="app">
+    <div id="app" style="background: #f5f5f7;">
       <main class="sticky-container" ref="sticky-container">
         <div class="sticky">
           <div class="slide-container">
@@ -77,6 +77,7 @@
                       <li><a href="#product" class="scroll_move">EXPERIENCE</a></li>
                       <li><a href="#stackList" class="scroll_move">STUDY</a></li>
                       <li><a href="#stackList" class="scroll_move">LANGUAGE</a></li>
+                      <li><a href="#skill" class="scroll_move">SKILL</a></li>
                       <li><a href="#projectList" class="scroll_move">PROJECT</a></li>
                       <li><a href="#footer-top" class="scroll_move">CONTACT</a></li>
                   </ul>
@@ -86,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="windowAll"> <!--화면 전체 영역-->
+        <div class="windowAll" style="background: #f5f5f7;"> <!--화면 전체 영역-->
           <div class="fullpage">
               <div class="section">
                       <div class="item">
@@ -109,13 +110,20 @@
                                             </div>
                                               <div class="aboutMeList-top">
                                                 <div class="aboutMeList2-top">
-                                                  <p style="font-size: larger; text-align: center; font-weight: bold;">'열심히는 누구나 할 수 있습니다. 저는 잘할 수 있습니다.'</p>
-                                                    <br/>
-                                                    <p style="font-size: medium;">
-                                                      구성원 과의 소통, 공감, 배려를 통해 보다 효율적으로 업무를 수행 하고 
+                                                  <p style="font-size: larger; text-align: center; font-weight: bold;">'열심히는 누구나 할 수 있습니다. <span style="color: #f1652a;">저는 잘할 수 있습니다.</span>'</p>
+                                                    
+                                                    <button class="hash-btn"><span class="btn-span">#</span>중고 신입</button>
+                                                    <button class="hash-btn"><span class="btn-span">#</span>사용자 친화</button>
+                                                    <button class="hash-btn"><span class="btn-span">#</span>최신 트렌드</button>
+                                                    <button class="hash-btn" style="width: 17%;"><span class="btn-span">#</span>웹 표준</button>
+                                                    <button class="hash-btn"><span class="btn-span">#</span>웹 접근성</button>
+                                                    <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>소통</button>
+                                                    <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>공감</button>
+                                                    <!-- <p style="font-size: medium;">
+                                                      팀원들 과의 <span style="color: cornflowerblue;">소통, 공감, 배려</span>를 통해 보다 효율적으로 업무를 수행 하고 
                                                       <br/>
                                                       항상 낮은자세로 현실에 안주하지 않고 끊임없이 노력해 나가겠습니다.
-                                                    </p>
+                                                    </p> -->
                                                 </div>
                                                 <div class="catchButton">
                                                   <div class="catch-button-control">
@@ -167,7 +175,7 @@
                           </div>
                           <div class="education">
                             <h2>구디아카데미</h2>
-                            <li> (자바/스프링 기반) 디지털융합 SW전문가 양성과정</li>
+                            <li style="color: teal;"> (자바/스프링 기반) 디지털융합 SW전문가 양성과정</li>
                             <p> 2021.09 ~ 2022.04 </p>
                           </div>
                           <div class="stackList" id="stackList">
@@ -220,6 +228,76 @@
                           </div>
                       </div>
                   </div>
+                  <div class="subBenner">
+                    <div class="stackList" id="projectList">
+                        <h3 style="margin-top: 80px;" id="skill">SKILL</h3>
+                    </div>
+                    <div class="item2">
+                        <div class="newList3">
+                          <ul>
+                            <li>
+                              <img src="./image/HTML2.png" alt="HTML">
+                              <div class="progress" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #f1652a;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                              </div>
+                            </li>
+                            <div class="skill-p">
+                              <p>
+                                웹 접근성, 웹 표준을 준수하며, 시멘틱 태그를 이용해 마크업 할 수 있습니다.
+                              </p>
+                            </div>
+                            <li>
+                              <img src="./image/CSS2.png" alt="CSS">
+                              <div class="progress" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #359cd6;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                              </div>
+                            </li>
+                            <div class="skill-p">
+                              <p>
+                                CSS 기본 구조와 속성을 이해하고 있으며, 애니메이션 등을 활용한 다양한 스타일과 동적 구현이 가능합니다. <br/>
+                                또한, 미디어 쿼리를 이용한 반응형 웹 개발도 문제없이 수행할 수 있습니다.
+                              </p>
+                            </div>
+                            <li>
+                              <img src="./image/JS2.png" alt="JS">
+                              <div class="progress" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%; background-color: #ffdd46;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">75%</div>
+                              </div>
+                            </li>
+                            <div class="skill-p">
+                              <p>
+                                ES6+ 문법을 바탕으로 DOM 조작, 이벤트 처리, 비동기 프로그래밍(Async/Await) 등 <br/>
+                                웹 애플리케이션의 동적 기능을 구현할 수 있습니다
+                              </p>
+                            </div>
+                            <li>
+                              <img src="./image/FIGMA.png" alt="jquery">
+                              <div class="progress" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%; background-color: #a257ff;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                              </div>
+                            </li>
+                            <div class="skill-p">
+                              <p>
+                                UI/UX 디자인이 가능하고 다양한 플러그인과 <br/>
+                                프로토타이핑 기능을 통해 디자인 작업을 효율적으로 수행할 수 있습니다.
+                              </p>
+                            </div>
+                            <li>
+                              <img src="./image/Vuejs2.png" alt="Vue">
+                              <div class="progress" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%; background-color: #40b883;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+                              </div>
+                            </li>
+                            <div class="skill-p">
+                              <p>
+                                컴포넌트 기반으로 재사용 가능한 UI를 구현 가능하며 <br/>
+                                Vue Router와 Vuex를 활용한 SPA(Single Page Application) 구현이 가능합니다.
+                              </p>
+                            </div>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
                   <div class="subBenner">
                       <div class="stackList" id="projectList">
                           <h3 style="margin-top: 80px;">PROJECT</h3>

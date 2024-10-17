@@ -4,13 +4,14 @@ figure.snip1384 {
     overflow: hidden;
     margin: 10px;
     min-width: 230px;
-    max-width: 315px;
+    max-width: 350px;
     width: 100%;
     color: #ffffff;
     text-align: left;
     font-size: 16px;
     border-radius: 15px;
     background-color: #000000;
+    box-shadow: 5px 5px 10px darkgray;
   }
   figure.snip1384 * {
     -webkit-box-sizing: border-box;
@@ -19,7 +20,7 @@ figure.snip1384 {
     transition: all 0.35s ease;
   }
   figure.snip1384 img {
-    height: 300px;
+    height: 350px;
     max-width: 100%;
     backface-visibility: hidden;
     vertical-align: top;
