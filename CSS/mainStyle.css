@@ -813,7 +813,7 @@ iframe{
   @media only screen and (max-width:768px) {
 
     .hash-btn{
-      font-size: smaller;
+      font-size: 12px;
     }
 
     .skill-p p{
