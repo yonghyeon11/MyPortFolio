@@ -827,6 +827,7 @@ iframe{
     }
 
     .item2{
+      text-align: center;
       overflow: hidden;
       width: 100%;
       border-radius: 20px;
@@ -935,8 +936,7 @@ iframe{
       font-family: 'Spoqa Han Sans Neo', 'sans-serif';
       padding: 25px 10px 0px 25px;
       height: 290px;
-      margin-left: 10px;
-      width: 95%;
+      width: 97%;
       box-shadow: 5px 5px 10px darkgray;
     }
 
@@ -1001,7 +1001,7 @@ iframe{
     height: 38px;
     background-image: url(/image/arrow.png);
     position: fixed;
-    right: 0.5em;
+    right: 2em;
     bottom: 50px;
     display: none;
     border-radius: 2em;
@@ -1219,28 +1219,11 @@ iframe{
     cursor: pointer;
 }
 */
+
+
+
 @media (max-width:1280px) {
-    .product{
-      display: block;
-    }
-
-    .image {
-        width: 115px;
-    }
-
-    .menu {
-        width: calc(100% - 185px);
-    }
-
-    .hLink {
-        height: 30px;
-        line-height: 30px;
-        font-size: 14px;
-    }
-
-    .myPage img {
-        width: 20px;
-    }
+    
 }
 
 .navBar{
@@ -1311,34 +1294,6 @@ iframe{
 }
 
 
-
-
-
-@media screen and (max-width: 1023px){
-    .navBar{
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 10px;
-    }
-    .navBar-menu{
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-    }
-
-    .navBar-logo {
-        width: 100%;
-        text-align: center;
-    }
-    .navBar-toggleBtn{
-        display: block;
-    }
-    .navBar-menu.active,
-    .navBar-links.active {
-        display: flex;
-    }
-}
 
 /*modal*/
 #modalOpenButton, #modalCloseButton {
@@ -1519,3 +1474,77 @@ input.button-add:hover{
   cursor: pointer;
 }
 
+
+
+
+@media screen and (max-width: 1024px){
+
+  .newList3 ul{
+    width: 95%;
+  }
+
+  .scrollToTop{
+    right: 2em;
+  }
+
+  .product2{
+    width: 98%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .education{
+    width: 95%;
+  }
+
+  .wrap{
+    width: 95%;
+  }
+
+  .navBar{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .navBar-menu{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+  }
+
+  .navBar-logo {
+      width: 100%;
+      text-align: center;
+  }
+  .navBar-toggleBtn{
+      display: block;
+  }
+  .navBar-menu.active,
+  .navBar-links.active {
+      display: flex;
+  }
+
+  .product{
+    display: block;
+  }
+
+  .image {
+      width: 115px;
+  }
+
+  .menu {
+      width: calc(100% - 185px);
+  }
+
+  .hLink {
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+  }
+
+  .myPage img {
+      width: 20px;
+  }
+
+}
