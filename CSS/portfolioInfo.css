@@ -271,6 +271,7 @@ h2{
 }
 
 .content-videoBox video{
+    position: relative;
     width: 100%; 
     height: 100%; 
     border-radius: 20px; 
@@ -335,8 +336,20 @@ h2{
 }
 
 
+/*뷰포트의 가로너비가 1025px 이상인 경우 적용 : 데스크탑 환경*/ 
+@media screen and (min-width: 1025px){}
+
+/*뷰포트의 가로너비가 769px 이상 1024px 이하 : 태블릿 환경*/ 
+@media screen and (min-width: 769px) and (max-width: 1024){}
+
+
 /*미디어 쿼리 모바일*/
-@media only screen and (max-width:768px) {
+@media screen and (max-width:768px) {
+
+    body{
+        height: 2600px;
+    }
+
     .header{
         flex-direction: column;
         align-items: flex-start;
@@ -347,4 +360,178 @@ h2{
         align-items: center;
         width: 100%;
     }
+
+    .header li a{
+        font-size: 3vw;
+    }
+
+    .center{
+        display: contents;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .main-container-left{
+        margin-top: -50px;
+        width: 100%;
+        height: 30%;
+    }
+
+    .main-container-right{
+        width: 100%;
+        height: 520px;
+    }
+
+    .main-content-right-title h2{
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .main-content-right-detail{
+        text-align: center;
+        margin-top: -75px;
+    }
+
+    .main-content-right-detail p:nth-child(1){
+        font-size: 4vw;
+    }
+
+    .main-content-right-detail p:nth-child(2){
+        font-size: 4vw;
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .main-content-buttonGroup{
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .button-01{
+        margin: 5px 0 5px 5px;
+        width: 15%;
+        font-size: 2vw;
+        height: 25px;
+    }
+
+    .button-02{
+        margin: 5px 0 5px 5px;
+        width: 15%;
+        font-size: 2vw;
+        height: 25px;
+    }
+
+    .button-03{
+        margin: 5px 0 5px 5px;
+        width: 18%;
+        font-size: 2vw;
+        height: 25px;
+    }
+
+    .button-04{
+        margin: 5px 0 5px 5px;
+        width: 15%;
+        font-size: 2vw;
+        height: 25px;
+    }
+
+    .content-container{
+        margin-top: 0;
+        height: 500px;
+    }
+
+    .content-videoBox{
+        height: 85%;
+    }
+
+    .content2{
+        margin-top: 0;
+    }
+
+    .contnet2-container-mobile{
+        height: 300px;
+    }
+    
+    .content2-container-tablet{
+        height: 300px;
+    }
+
+    .contnet2-mobile{
+        width: 70%;
+        height: 85%;
+    }
+
+    .content2-tablet{
+        width: 95%;
+        height: 90%;
+    }
+
+    .dynamic-info p{
+        font-size: 3vw
+    }
+
+    .footer{
+        margin-top: 30px;
+    }
+
+    .footer p{
+        font-size: 7vw;
+        margin-bottom: -20px;
+    }
+
+    .footer li a{
+        font-size: 3.5vw;
+    }
+}
+
+/* 모바일 소형 */
+@media screen and (max-width: 479px){
+
+    body{
+        height: 1800px;
+    }
+
+    .main{
+        margin-top: 50px;
+    }
+
+    .main-container-right{
+        height: 400px;
+    }
+
+    .content-videoBox{
+        height: 100%;
+    }
+
+    .content-container{
+        height: 250px;
+
+    }
+
+    .content2{
+        margin-top: 50px;
+    }
+
+    .contnet2-container-mobile{
+        height: 250px;
+    }
+    
+    .content2-container-tablet{
+        height: 250px;
+    }
+
+    .contnet2-mobile{
+        width: 100%;
+    }
+
+    .content2-tablet{
+        width: 100%;
+        height: 88%;
+    }
+    .footer{
+        margin-top: 0;
+    }
+
 }
