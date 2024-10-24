@@ -492,7 +492,7 @@ h2{
     }
 
     .content-container{
-        margin-top: 0;
+        margin-top: 50px;
         height: 500px;
     }
 
@@ -565,7 +565,7 @@ h2{
 
     .content-container{
         height: 250px;
-
+        margin-top: 100px;
     }
 
     .content2{
