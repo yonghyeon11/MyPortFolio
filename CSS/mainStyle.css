@@ -1223,7 +1223,9 @@ iframe{
 
 
 @media (max-width:1280px) {
-    
+    .sticky{
+      width: 100%;
+    }
 }
 
 .navBar{
