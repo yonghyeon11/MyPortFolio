@@ -1223,7 +1223,11 @@ iframe{
 
 
 @media (max-width:1280px) {
-    .sticky{
+    #app{
+      width: 100%;
+    }
+
+    .windowAll{
       width: 100%;
     }
 }
