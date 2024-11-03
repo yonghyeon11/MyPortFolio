@@ -161,19 +161,7 @@
     }
   }
   
-  @keyframes wheel {
-    to {
-      opacity: 0;
-      top: 60px;
-    }
-  }
   
-  @-webkit-keyframes wheel {
-    to {
-      opacity: 0;
-      top: 60px;
-    }
-  }
   
   .scroll {
     width: 60px;
@@ -196,29 +184,7 @@
     }
   }
   
-  @keyframes down {
-    0% {
-      transform: translate(0);
-    }
-    20% {
-      transform: translateY(15px);
-    }
-    40% {
-      transform: translate(0);
-    }
-  }
   
-  @-webkit-keyframes down {
-    0% {
-      transform: translate(0);
-    }
-    20% {
-      transform: translateY(15px);
-    }
-    40% {
-      transform: translate(0);
-    }
-  }
   
   .arrow {
     width: 0;
@@ -243,29 +209,7 @@
     }
   }
   
-  @keyframes scroll {
-    0% {
-      height: 40px;
-    }
-    30% {
-      height: 70px;
-    }
-    60% {
-      height: 40px;
-    }
-  }
   
-  @-webkit-keyframes scroll {
-    0% {
-      height: 40px;
-    }
-    30% {
-      height: 70px;
-    }
-    60% {
-      height: 40px;
-    }
-  }
 
 
 html{
@@ -516,17 +460,7 @@ iframe{
 	animation: rollingleft2 50s linear infinite;
 }
 
-@keyframes rollingleft1 {
-	0% { transform: translateX(0); }
-	50% { transform: translateX(-100%); }
-	50.01% { transform: translateX(100%); }
-	100% { transform: translateX(0); }
-}
 
-@keyframes rollingleft2 {
-	0% { transition: translateX(0); }
-	100% { transform: translateX(-200%); }
-}
 
 /* .aboutMeAll{
     max-width: 1980px;
@@ -1488,4 +1422,78 @@ input.button-add:hover{
   100% {
     transform: scale(1);
   }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    height: 40px;
+  }
+  30% {
+    height: 70px;
+  }
+  60% {
+    height: 40px;
+  }
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    height: 40px;
+  }
+  30% {
+    height: 70px;
+  }
+  60% {
+    height: 40px;
+  }
+}
+
+@keyframes rollingleft1 {
+	0% { transform: translateX(0); }
+	50% { transform: translateX(-100%); }
+	50.01% { transform: translateX(100%); }
+	100% { transform: translateX(0); }
+}
+
+@keyframes rollingleft2 {
+	0% { transition: translateX(0); }
+	100% { transform: translateX(-200%); }
 }
