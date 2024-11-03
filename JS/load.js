@@ -1,3 +1,4 @@
+/* footer include 해오는 스크립트 */
 window.addEventListener('load', function() {
     var allElements = document.getElementsByTagName('*');
     Array.prototype.forEach.call(allElements, function(el) {

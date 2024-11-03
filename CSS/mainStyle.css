@@ -308,6 +308,7 @@ html{
 }
 .windowAll{
     position: relative;
+    background: #f5f5f7;
 }
 .section{
     padding: 30px 0 60px 0;
@@ -531,15 +532,8 @@ iframe{
     max-width: 1980px;
 } */
 
-.aboutMeCenter{
-    -webkit-box-sizing: border-box;
-    width: 100%;
-    max-width: 60.25rem;
-    padding: 0rem 2rem;
-    margin: 5px auto;
-}
 
-.aboutMeCenter-top{
+.introduce{
     -webkit-box-sizing: border-box;
     width: 100%;
     max-width: 60.25rem;
@@ -547,14 +541,7 @@ iframe{
     margin: 11px auto;
 }
 
-.aboutMeCenter2{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-}
-
-.aboutMeCenter2-top{
+.aboutMeCenter{
     margin-bottom: -35px;
     margin-top: 35px;
     display: flex;
@@ -577,12 +564,9 @@ iframe{
     width: 100%;
 }
 
-.aboutMeList{
-    width: 33.33333%;
-    margin-bottom: 2rem;
-}
 
-.aboutMeList-top{
+
+.aboutMeList{
     /* width: 50%; */
     margin-bottom: 2rem;
 }
@@ -596,7 +580,7 @@ iframe{
     opacity: 74.8;
 }
 
-.aboutMeList2-top{
+.aboutMeList-bottom{
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   width: 100%;
   max-width: 32rem;
@@ -609,7 +593,7 @@ iframe{
   box-shadow: 5px 5px 5px darkgray;
 }
 
-.aboutMeList2-top2{
+.aboutMeList-top{
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
@@ -712,16 +696,6 @@ iframe{
     animation: typing 5s steps(31) infinite;
  }
 
- .introduce{
-    margin: 5px auto;
- }
-
- .introduce p{
-    line-height: 28px;
-    font-size: 1rem;
-    letter-spacing: 0.5px;
- }
-
  .pj1-skil-list{
   display: flex;
     bottom: 25px;
@@ -798,254 +772,10 @@ iframe{
   text-align: center;
 }
 
- @keyframes typing{
-    0% {
-      width: 0%;
-    }
-    50% {
-      width: 100%;
-    }
-    100% {
-      width: 0%;
-    }
-  }
-
-  @media only screen and (max-width:768px) {
-
-    .hash-btn{
-      font-size: 12px;
-    }
-
-    .skill-p p{
-      text-align: left;
-      margin-top: 2%;
-      width: 90%;
-    }
-
-    .progress{
-      width: 80%;
-    }
-
-    .item2{
-      text-align: center;
-      overflow: hidden;
-      width: 100%;
-      border-radius: 20px;
-      box-shadow: none;
-    }
-
-    .product2{
-      width: 100%;
-    }
-
-
-    .hidden{
-      z-index: 20;
-    }
-
-    .pj1-skil-list{
-      left: 25px;
-    }
-
-    .pj1-skil-css{
-      width: 50px;
-    }
-
-    .pj1-skil-html{
-      width: 55px;
-    }
-
-    .pj1-skil-jq{
-      width: 65px;
-    }
-
-    .pj1-skil-java{
-      width: 55px;
-    }
-
-    .pj1-skil-sql{
-      width: 55px;
-    }
-
-    .pj1-skil-jsp{
-      width: 55px;
-    }
-
-    .pj1-skil-xml{
-      width: 55px;
-    }
-
-    .aboutMeList-top{
-      margin-bottom: 2rem;
-  }
-
-    .aboutMeList2-top{
-        width: 90%;
-        margin: 5%;
-        height: 200px;
-    }
-
-    .aboutMeList2-top p{
-      font-size: 1%;
-    }
-
-    .catchButton{
-      /* display: flex; */
-      align-items: center;
-      background-color: #ffffff;
-      border-radius: 15px;
-      margin: 10px;
-      height: 75px;
-      padding: 12px;
-      width: 95%;
-      box-shadow: 5px 5px 10px darkgray;
-    }
-
-    .catch-button-control{
-      left: 1px;
-    }
-
-    .catchButton a{
-      margin-left: 0px;
-      color: inherit;
-    text-decoration: none;
-    }
-
-    .resumeBtn{
-      width: 100px;
-    }
-
-    input.button-add{
-      width: 20px;
-    }
-
-    .stackList{
-      margin: 5%;
-      font-size: 15px;
-    }
-
-    .stackList h3{
-        font-size: 1.5em;
-    }
-
-    .myImage{
-      height: 250px;
-    }
-
-    .experience{
-      font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-      padding: 25px 10px 0px 25px;
-      height: 290px;
-      width: 97%;
-      box-shadow: 5px 5px 10px darkgray;
-    }
-
-    .experience h2{
-      font-size: 1em;
-    }
-
-    .experience li,p{
-      font-size: 0.7em;
-    }
-
-    .education{
-      padding: 20px 10px 20px 25px;
-      width: 95%;
-    }
-
-    .education h2{
-      font-size: 1em;
-    }
-
-    .education li, p{
-      font-size: 0.7em;
-    }
-
-    .AboutstackList h3{
-        font-size: 2em;
-    }
-
-    .footer .footer_bottom{
-        padding: 1px 0 1px;
-    }
-
-    .introduce{
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-
-    .introduce p{
-        line-height: 20px;
-        font-size: 1rem;
-        letter-spacing: 1px;
-    }
-
-    .typing h1{
-        width: 77%;
-        font-size: 0.7rem;
-    }
-
-    .newList2{
-      /* box-shadow: 5px 5px 10px darkgray; */
-      /* margin: 0 20px 15px 20px; */
-      display: inline-block;
-      text-align: center;
-    }
-
-    .pj1{
-      width: 85%;
-    }
-
-    .scrollToTop{
-      width: 38px;
-    height: 38px;
-    background-image: url(/image/arrow.png);
-    position: fixed;
-    right: 2em;
-    bottom: 50px;
-    display: none;
-    border-radius: 2em;
-    background-size: cover;
-    z-index: 999;
-    }
-
-    .aboutMeCenter-top {
-      padding: 1rem 0rem;
-    }
-
-    .wrap{
-      height: 90px;
-      width: 95%;
-      margin-bottom: 15px;
-    }
-
-    .wrap .rolling-list ul li{
-      height: 0px;
-    }
-
-    .section{
-      padding: 30px 0 30px 0;
-    }
-
-    .AboutSubTitle h3{
-      font-size: 1.5rem;
-    }
-
-    .slide-big-text p{
-      font-size: 30px;
-    }
-    
-  }
-
-
-
-    
-    
-  
-
   #app {
-    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    
     text-align: center;
+    background: #f5f5f7;
   }
   
   
@@ -1128,18 +858,6 @@ iframe{
     color: #111111;
     animation: animate 2s infinite;
   }
-  
-  @keyframes animate {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.15);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 
 #header {
     background-color: #f5f5f7;
@@ -1190,46 +908,17 @@ iframe{
     font-size: 18px;
 }
 
-
 .hLink:hover{
     background-color: #BB2649;
     color: white;
     transition: filter 0.3s ease;
 }
 
-
 .myPage{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
     right:10px;
-}
-/*
-.yonghyeon{
-    position: fixed;
-    left: 190px;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Jua', sans-serif;
-}
-
-.yonghyeon:hover{
-    color: #BB2649;
-    cursor: pointer;
-}
-*/
-
-
-
-@media (max-width:1280px) {
-    #app{
-      width: 100%;
-    }
-
-    .windowAll{
-      width: 100%;
-    }
 }
 
 .navBar{
@@ -1298,8 +987,6 @@ iframe{
     right: 32px;
     font-size: 24px;
 }
-
-
 
 /*modal*/
 #modalOpenButton, #modalCloseButton {
@@ -1480,6 +1167,220 @@ input.button-add:hover{
   cursor: pointer;
 }
 
+@media only screen and (max-width:768px) {
+
+  .hash-btn{
+    font-size: 12px;
+  }
+
+  .skill-p p{
+    text-align: left;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .progress{
+    width: 80%;
+  }
+
+  .item2{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: none;
+  }
+
+  .product2{
+    width: 100%;
+  }
+
+  .hidden{
+    z-index: 20;
+  }
+
+  .pj1-skil-list{
+    left: 25px;
+  }
+
+  .pj1-skil-css{
+    width: 50px;
+  }
+
+  .pj1-skil-html{
+    width: 55px;
+  }
+
+  .pj1-skil-jq{
+    width: 65px;
+  }
+
+  .pj1-skil-java{
+    width: 55px;
+  }
+
+  .pj1-skil-sql{
+    width: 55px;
+  }
+
+  .pj1-skil-jsp{
+    width: 55px;
+  }
+
+  .pj1-skil-xml{
+    width: 55px;
+  }
+
+  .aboutMeList{
+    margin-bottom: 2rem;
+  }
+
+  .aboutMeList-bottom{
+      width: 90%;
+      margin: 5%;
+      height: 200px;
+  }
+
+  .aboutMeList-bottom p{
+    font-size: 1%;
+  }
+
+  .catchButton{
+    /* display: flex; */
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 10px;
+    height: 75px;
+    padding: 12px;
+    width: 95%;
+    box-shadow: 5px 5px 10px darkgray;
+  }
+
+  .catch-button-control{
+    left: 1px;
+  }
+
+  .catchButton a{
+    margin-left: 0px;
+    color: inherit;
+  text-decoration: none;
+  }
+
+  .resumeBtn{
+    width: 100px;
+  }
+
+  input.button-add{
+    width: 20px;
+  }
+
+  .stackList{
+    margin: 5%;
+    font-size: 15px;
+  }
+
+  .stackList h3{
+      font-size: 1.5em;
+  }
+
+  .myImage{
+    height: 250px;
+  }
+
+  .experience{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    padding: 25px 10px 0px 25px;
+    height: 290px;
+    width: 97%;
+    box-shadow: 5px 5px 10px darkgray;
+  }
+
+  .experience h2{
+    font-size: 1em;
+  }
+
+  .experience li,p{
+    font-size: 0.7em;
+  }
+
+  .education{
+    padding: 20px 10px 20px 25px;
+    width: 95%;
+  }
+
+  .education h2{
+    font-size: 1em;
+  }
+
+  .education li, p{
+    font-size: 0.7em;
+  }
+
+  .AboutstackList h3{
+      font-size: 2em;
+  }
+
+  .footer .footer_bottom{
+      padding: 1px 0 1px;
+  }
+
+
+  .typing h1{
+      width: 77%;
+      font-size: 0.7rem;
+  }
+
+  .newList2{
+    /* box-shadow: 5px 5px 10px darkgray; */
+    /* margin: 0 20px 15px 20px; */
+    display: inline-block;
+    text-align: center;
+  }
+
+  .pj1{
+    width: 85%;
+  }
+
+  .scrollToTop{
+    width: 38px;
+    height: 38px;
+    background-image: url(/image/arrow.png);
+    position: fixed;
+    right: 2em;
+    bottom: 50px;
+    display: none;
+    border-radius: 2em;
+    background-size: cover;
+    z-index: 999;
+  }
+
+  .introduce {
+    padding: 1rem 0rem;
+  }
+
+  .wrap{
+    height: 90px;
+    width: 95%;
+    margin-bottom: 15px;
+  }
+
+  .wrap .rolling-list ul li{
+    height: 0px;
+  }
+
+  .section{
+    padding: 30px 0 30px 0;
+  }
+
+  .AboutSubTitle h3{
+    font-size: 1.5rem;
+  }
+
+  .slide-big-text p{
+    font-size: 30px;
+  } 
+}
 
 
 
@@ -1553,4 +1454,38 @@ input.button-add:hover{
       width: 20px;
   }
 
+}
+
+@media (max-width:1280px) {
+  #app{
+    width: 100%;
+  }
+
+  .windowAll{
+    width: 100%;
+  }
+}
+
+@keyframes typing{
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

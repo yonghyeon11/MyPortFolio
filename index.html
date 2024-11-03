@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="KR">
   <head>
-    <meta charset="UTF-8"><!-- -->
+    <meta charset="UTF-8"><!-- 한글 깨짐 방지 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         YongHyeon portfolio
     </title> 
-    <link rel="icon" href="/image/y.ico">
-    <link href="CSS/mainStyle.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="image/y.ico">
+
+    <!-- css 스타일 -->
+    <link rel="stylesheet" href="CSS/mainStyle.css">
+    <link rel="stylesheet" href="CSS/fadeinout.css">
+    <link rel="stylesheet" href="CSS/guddi.css">
+    <link rel="stylesheet" href="CSS/animista.css">
+
+    <!-- awesome 아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./CSS/fadeinout.css">
-    <link rel="stylesheet" href="./CSS/guddi.css">
-    <link rel="stylesheet" href="./CSS/animista.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- 부트스트랩 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- 구글 폰트 -->
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
-    <style>
-      @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-    </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
 
 <body>
-    <div id="app" style="background: #f5f5f7;">
+    <div id="app">
       <main class="sticky-container" ref="sticky-container">
-        <div class="sticky"><!--화면 처음 영역 -->
+        <!--화면 처음 영역 Scroll -->
+        <div class="sticky">
           <div class="slide-container">
             <div class="slide" ref="sl1">
               <div class="slide-big-text">
@@ -88,375 +94,377 @@
             </div>
           </div>
         </div>
-
-        <div class="windowAll" style="background: #f5f5f7;"> 
-          <div class="fullpage">
-              <div class="section">
-                  <div class="item"><!-- introduce 영역-->
-                      <div class="aboutMeAll">
-                          <div class="aboutMeTop" id="aboutMeTop">
-                                  <div class="AboutSubTitle">
-                                      <h3>introduce</h3>
-                                  </div>
-                                  <div class="aboutMeCenter-top">
-                                      <div class="typing">
-                                          <h1>마지막 기회라는 마음가짐으로 주어진 업무에 최선을 다하겠습니다.</h1>
-                                      </div>
-                                      <div class="aboutMeCenter2-top">
-                                        <div class="aboutMeList-top">
-                                          <div class="aboutMeList2-top2" style="max-width: 17rem;">
-                                              <div class="myImage">
-                                                <img src="/image/미모티콘.png" style="width: 100%; height: 90%; border-radius: 25px;">
-                                              </div>
-                                          </div>
-                                        </div>
-                                          <div class="aboutMeList-top">
-                                            <div class="aboutMeList2-top">
-                                              <p style="font-size: larger; text-align: center; font-weight: bold;">'열심히는 누구나 할 수 있습니다. <span style="color: #f1652a;">저는 잘할 수 있습니다.</span>'</p>
-                                                
-                                                <button class="hash-btn"><span class="btn-span">#</span>중고 신입</button>
-                                                <button class="hash-btn"><span class="btn-span">#</span>사용자 친화</button>
-                                                <button class="hash-btn"><span class="btn-span">#</span>최신 트렌드</button>
-                                                <button class="hash-btn" style="width: 17%;"><span class="btn-span">#</span>웹 표준</button>
-                                                <button class="hash-btn"><span class="btn-span">#</span>웹 접근성</button>
-                                                <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>소통</button>
-                                                <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>공감</button>
-                                                <!-- <p style="font-size: medium;">
-                                                  팀원들 과의 <span style="color: cornflowerblue;">소통, 공감, 배려</span>를 통해 보다 효율적으로 업무를 수행 하고 
-                                                  <br/>
-                                                  항상 낮은자세로 현실에 안주하지 않고 끊임없이 노력해 나가겠습니다.
-                                                </p> -->
+      </main>
+      <div class="windowAll"> 
+        <div class="fullpage">
+            <div class="section">
+                <!-- introduce 영역-->  
+                <div class="item">
+                    <div class="aboutMeAll">
+                        <div class="aboutMeTop" id="aboutMeTop">
+                                <div class="AboutSubTitle">
+                                    <h3>introduce</h3>
+                                </div>
+                                <div class="introduce">
+                                    <div class="typing">
+                                        <h1>마지막 기회라는 마음가짐으로 주어진 업무에 최선을 다하겠습니다.</h1>
+                                    </div>
+                                    <div class="aboutMeCenter">
+                                      <div class="aboutMeList">
+                                        <div class="aboutMeList-top" style="max-width: 17rem;">
+                                            <div class="myImage">
+                                              <img src="/image/미모티콘.png" style="width: 100%; height: 90%; border-radius: 25px;">
                                             </div>
-                                            <div class="catchButton">
-                                              <div class="catch-button-control">
-                                                <a href="./files/resume.pdf" download="조용현 이력서" class="resume"><button class="resumeBtn">이력서<i class="fa-solid fa-download"></i></button></a>
-                                                <input type="button" id="modalOpenButton" value="" class="button-add"> 
-                                                <input type="button" value="" class="gitImg" onclick="window.open('https://github.com/yonghyeon11')">
-                                                <input type="button" value="" class="VelogImg" onclick="window.open('https://velog.io/@yonghyeoon/posts')">
-                                                <div id="modalContainer" class="hidden">
-                                                  <div id="modalContent">
-                                                    <h3>Notion Study</h3>
-                                                    <input type="button" class="jsImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/JavaScript-6d49cd3a5de14ccfa9460657ced42b59?pvs=4')">
-                                                    <input type="button" class="cssImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/CSS-44ba6d54f3704883b83f6c5023556940')">
-                                                    <input type="button" class="htmlImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/HTML-6ba161c8bd7e499c876a472f98a7648e?pvs=4')">
-                                                    <input type="button" class="vueImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/Vue-js-Study-88ca90a499be4d788ba7317fa09492ec?pvs=4')">
-                                                    <input type="button" class="btn btn-outline-primary" value="반응형" onclick="window.open('https://wax-tanker-778.notion.site/acd33de217394f4a889e6256038e8b13?pvs=4')">
-                                                    <br/>
-                                                    <button type="button" id="modalCloseButton" class="btn btn-outline-secondary">닫기</button>
-                                                  </div>
+                                        </div>
+                                      </div>
+                                        <div class="aboutMeList">
+                                          <div class="aboutMeList-bottom">
+                                            <p style="font-size: larger; text-align: center; font-weight: bold;">'열심히는 누구나 할 수 있습니다. <span style="color: #f1652a;">저는 잘할 수 있습니다.</span>'</p>
+                                              <button class="hash-btn"><span class="btn-span">#</span>중고 신입</button>
+                                              <button class="hash-btn"><span class="btn-span">#</span>사용자 친화</button>
+                                              <button class="hash-btn"><span class="btn-span">#</span>최신 트렌드</button>
+                                              <button class="hash-btn" style="width: 17%;"><span class="btn-span">#</span>웹 표준</button>
+                                              <button class="hash-btn"><span class="btn-span">#</span>웹 접근성</button>
+                                              <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>소통</button>
+                                              <button class="hash-btn" style="width: 15%;"><span class="btn-span">#</span>공감</button>
+                                          </div>
+                                          <div class="catchButton">
+                                            <div class="catch-button-control">
+                                              <a href="./files/resume.pdf" download="조용현 이력서" class="resume"><button class="resumeBtn">이력서<i class="fa-solid fa-download"></i></button></a>
+                                              <input type="button" id="modalOpenButton" value="" class="button-add"> 
+                                              <input type="button" value="" class="gitImg" onclick="window.open('https://github.com/yonghyeon11')">
+                                              <input type="button" value="" class="VelogImg" onclick="window.open('https://velog.io/@yonghyeoon/posts')">
+                                              <div id="modalContainer" class="hidden">
+                                                <div id="modalContent">
+                                                  <h3>Notion Study</h3>
+                                                  <input type="button" class="jsImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/JavaScript-6d49cd3a5de14ccfa9460657ced42b59?pvs=4')">
+                                                  <input type="button" class="cssImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/CSS-44ba6d54f3704883b83f6c5023556940')">
+                                                  <input type="button" class="htmlImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/HTML-6ba161c8bd7e499c876a472f98a7648e?pvs=4')">
+                                                  <input type="button" class="vueImg" value="" onclick="window.open('https://wax-tanker-778.notion.site/Vue-js-Study-88ca90a499be4d788ba7317fa09492ec?pvs=4')">
+                                                  <input type="button" class="btn btn-outline-primary" value="반응형" onclick="window.open('https://wax-tanker-778.notion.site/acd33de217394f4a889e6256038e8b13?pvs=4')">
+                                                  <br/>
+                                                  <button type="button" id="modalCloseButton" class="btn btn-outline-secondary">닫기</button>
                                                 </div>
                                               </div>
                                             </div>
                                           </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!-- EXPERIENCE study 영역 -->
+                <div class="product" id="product">
+                  <div class="product2">
+                    <div class="stackList">
+                      <h3>EXPERIENCE</h3>
                     </div>
-                  <!-- 메인 1단 -->
-                  <div class="product" id="product">
-                    <div class="product2">
-                      <div class="stackList">
-                        <h3>EXPERIENCE</h3>
-                      </div>
-                      <div class="experience" id="expereince">
-                        <h2>해오름 인포텍 <span class="ex-size">2022.04 ~ 2023.04</span></h2>
-                        <li><span class="ex-col">더존 비즈온</span> ERP10 고객사 솔루션 개발 참여</li>
-                        <p> 2022.05 ~ 2022.10 </p>
-                        <p> 유피케미칼, 엠티어(캐니스터 모듈 개발) </p>
-                        <p>입고관리, 재고관리, 출고관리</p>
-                        <br/>
-                        <li><span class="ex-col">삼성생명</span> 건강관리 서비스 앱 고도화</li>
-                        <p> 2022.11 ~ 2023.01 </p>
-                        <p> 회원정보, 챌린지 , QnA 조회 수정</p>
-                      </div>
+                    <div class="experience" id="expereince">
+                      <h2>해오름 인포텍 <span class="ex-size">2022.04 ~ 2023.04</span></h2>
+                      <li><span class="ex-col">더존 비즈온</span> ERP10 고객사 솔루션 개발 참여</li>
+                      <p> 2022.05 ~ 2022.10 </p>
+                      <p> 유피케미칼, 엠티어(캐니스터 모듈 개발) </p>
+                      <p>입고관리, 재고관리, 출고관리</p>
+                      <br/>
+                      <li><span class="ex-col">삼성생명</span> 건강관리 서비스 앱 고도화</li>
+                      <p> 2022.11 ~ 2023.01 </p>
+                      <p> 회원정보, 챌린지 , QnA 조회 수정</p>
                     </div>
-                      <div class="item" style="margin: -0.7% 0% -10px 3%;" >
-                          <div class="stackList" id="stackList">
-                            <h3>STUDY</h3>
-                          </div>
-                          <div class="education">
-                            <h2>구디아카데미</h2>
-                            <li style="color: teal;"> (자바/스프링 기반) 디지털융합 SW전문가 양성과정</li>
-                            <p> 2021.09 ~ 2022.04 </p>
-                          </div>
-                          <div class="stackList" id="stackList">
-                              <h3 style="margin-top: 30px;">Language & Framework</h3>
-                          </div>
-                          <div class="wrap" id="wrap"> <!--베너 영역-->
-                              <div class="rolling-list" id="rolling-list"> <!-- 원본 베너 -->
-                                  <ul>
-                                      <li>
-                                          <div class="image-wrap" name="Front-end">Front-end Stack</div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/CSS.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/HTML.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/JS.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/Vuejs.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/JQUARY.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap">Tool Used</div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/VScode.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/Sourcetree.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/FIGMA.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/Notion.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/Terminal.png"></div>
-                                      </li>
-                                      <li>
-                                          <div class="image-wrap"><img src="image/Bootstrap.png"></div>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
                   </div>
-                  <div class="subBenner"><!-- skill 영역 -->
-                    <div class="stackList" id="projectList">
-                        <h3 style="margin-top: 80px;" id="skill">SKILL</h3>
-                    </div>
-                    <div class="item2">
-                        <div class="newList3">
-                          <ul>
-                            <li>
-                              <img src="./image/JS2.png" alt="JS">
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #ffdd46;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
-                              </div>
-                            </li>
-                            <div class="skill-p">
-                              <p>
-                                ES6+ 문법을 바탕으로 DOM 조작, 이벤트 처리, 비동기 프로그래밍(Async/Await) 등 <br/>
-                                웹 애플리케이션의 동적 기능을 구현할 수 있습니다
-                              </p>
+                    <div class="item" style="margin: -0.7% 0% -10px 3%;" >
+                        <div class="stackList" id="stackList">
+                          <h3>STUDY</h3>
+                        </div>
+                        <div class="education">
+                          <h2>구디아카데미</h2>
+                          <li style="color: teal;"> (자바/스프링 기반) 디지털융합 SW전문가 양성과정</li>
+                          <p> 2021.09 ~ 2022.04 </p>
+                        </div>
+                        <div class="stackList" id="stackList">
+                            <h3 style="margin-top: 30px;">Language & Framework</h3>
+                        </div>
+                        <div class="wrap" id="wrap"> <!--베너 영역-->
+                            <div class="rolling-list" id="rolling-list"> <!-- 원본 베너 -->
+                                <ul>
+                                    <li>
+                                        <div class="image-wrap" name="Front-end">Front-end Stack</div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/CSS.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/HTML.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/JS.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/Vuejs.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/JQUARY.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap">Tool Used</div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/VScode.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/Sourcetree.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/FIGMA.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/Notion.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/Terminal.png"></div>
+                                    </li>
+                                    <li>
+                                        <div class="image-wrap"><img src="image/Bootstrap.png"></div>
+                                    </li>
+                                </ul>
                             </div>
-                            <li>
-                              <img src="./image/Vuejs2.png" alt="Vue">
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%; background-color: #40b883;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
-                              </div>
-                            </li>
-                            <div class="skill-p">
-                              <p>
-                                컴포넌트 기반으로 재사용 가능한 UI를 구현 가능하며 <br/>
-                                Vue Router와 Vuex를 활용한 SPA(Single Page Application) 구현이 가능합니다.
-                              </p>
-                            </div>
-                            <li>
-                              <img src="./image/HTML2.png" alt="HTML">
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #f1652a;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
-                              </div>
-                            </li>
-                            <div class="skill-p">
-                              <p>
-                                웹 접근성, 웹 표준을 준수하며, 시멘틱 태그를 이용해 마크업 할 수 있습니다.
-                              </p>
-                            </div>
-                            <li>
-                              <img src="./image/CSS2.png" alt="CSS">
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #359cd6;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
-                              </div>
-                            </li>
-                            <div class="skill-p">
-                              <p>
-                                CSS 기본 구조와 속성을 이해하고 있으며, 애니메이션 등을 활용한 다양한 스타일과 동적 구현이 가능합니다. <br/>
-                                또한, 미디어 쿼리를 이용한 반응형 웹 개발도 문제없이 수행할 수 있습니다.
-                              </p>
-                            </div>
-                            <li>
-                              <img src="./image/FIGMA.png" alt="jquery">
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%; background-color: #a257ff;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
-                              </div>
-                            </li>
-                            <div class="skill-p">
-                              <p>
-                                UI/UX 디자인이 가능하고 다양한 플러그인과 <br/>
-                                프로토타이핑 기능을 통해 디자인 작업을 효율적으로 수행할 수 있습니다.
-                              </p>
-                            </div>
-                          </ul>
                         </div>
                     </div>
                 </div>
-                  <div class="subBenner"><!-- project 영역 -->
-                      <div class="stackList" id="projectList">
-                          <h3 style="margin-top: 80px;">PROJECT</h3>
-                      </div>
-                      <div class="item2">
-                          <div class="newList2">
-                            <div class="pj1"">
-                              <div>
-                                <figure class="snip1384">
-                                  <img src="./image/pjimage-01.png" alt="sample83" />
-                                  <figcaption>
-                                    <h3>포트폴리오 자기소개 사이트</h3>
-                                    <p>
-                                      저의 첫 포트폴리오 자기소개 페이지로 애플의 첫 시작화면을 모티브로 제작 하였고 새로운 기술을 적용하여 끊임없이 이어나가고 있습니다.
-                                      <br/>
-                                    </p>
-                                    <p>
-                                      - 프로젝트 인원 : Solo
-                                      <br/>
-                                      - 제작 기간 : 23.01.13 ~ 
-                                      <br/>
-                                    </p>
-                                    <div class="pj1-skil-list">
-                                      <h5 class="pj1-skil-js" >JavaScript</h5>
-                                      <h5 class="pj1-skil-css" >CSS</h5>
-                                      <h5 class="pj1-skil-html" >HTML</h5>
-                                      <h5 class="pj1-skil-jq" >Jquary</h5>
-                                    </div>
-                                  </figcaption>
-                                  <a href="projectInfo.html"></a>
-                                </figure>
-                              </div>
+                <!-- skill 영역 -->
+                <div class="subBenner">
+                  <div class="stackList" id="projectList">
+                      <h3 style="margin-top: 80px;" id="skill">SKILL</h3>
+                  </div>
+                  <div class="item2">
+                      <div class="newList3">
+                        <ul>
+                          <li>
+                            <img src="./image/JS2.png" alt="JS">
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #ffdd46;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
-                            <div class="pj1" >
-                                <figure class="snip1384">
-                                  <img src="./image/pjimage-03.png" alt="sample83" />
-                                  <figcaption>
-                                    <h3>망그러진 곰 연예유형 테스트</h3>
-                                    <p>
-                                      자신의 평소 생활 패턴, 연예관을 인기 캐릭터인 망그러진 곰을 통해 알아 볼 수 있는 웹 애플리케이션 입니다.
-                                      <br/>
-                                    </p>
-                                    <p>
-                                      - 프로젝트 인원 : Solo
-                                      <br/>
-                                      - 제작 기간 : 24.07.12 ~ 24.07.26
-                                      <br/> 
-                                    </p>
-                                    <div class="pj1-skil-list">
-                                      <h5 class="pj1-skil-js" >JavaScript</h5>
-                                      <h5 class="pj1-skil-css" >CSS</h5>
-                                      <h5 class="pj1-skil-html" >HTML</h5>
-                                    </div>
-                                  </figcaption>
-                                  <a href="manggomInfo.html"></a>
-                                </figure>
-                            </div>
-                            <div class="pj1" >
-                              <div>
-                                <figure class="snip1384">
-                                  <img src="./image/pjimage-02.png" alt="sample83" style="width: 350px;"/>
-                                  <figcaption>
-                                    <h3>Do It Just 할일관리 앱</h3>
-                                    <p>
-                                      Vue.js를 사용한 간단한 CRUD프로젝트로 로컬스토리지에 데이터를 저장 가능한 컴포넌트 기반 할 일 관리 애플리케이션 입니다.
-                                      <br/>
-                                    </p>
-                                    <p>
-                                      - 프로젝트 인원 : Solo
-                                      <br/>
-                                      - 제작 기간 : 24.08.19 ~ 24.08.26
-                                      <br/> 
-                                    </p>
-                                    <div class="pj1-skil-list">
-                                      <h5 class="pj1-skil-js" >JavaScript</h5>
-                                      <h5 class="pj1-skil-vue" >Vue.js</h5>
-                                      <h5 class="pj1-skil-css" >CSS</h5>
-                                      <h5 class="pj1-skil-html" >HTML</h5>
-                                    </div>
-                                  </figcaption>
-                                  <a href="JustDoItInfo.html"></a>
-                                </figure>
-                              </div>
-                            </div>
-                            <div class="pj1" >
-                              <div>
-                                <figure class="snip1384">
-                                  <img src="./image/eeem/eeem-01.png" alt="sample83" />
-                                  <figcaption>
-                                    <h3>소모임 온라인 프로젝트 2차 (PPT)</h3>
-                                    <p>
-                                      다양한 모임들을 분야, 지역별 검색을 통해 자신이 원하는 모임을 개설, 참여 가능한 웹 사이트 입니다.
-                                      <br/>
-                                    </p>
-                                    <p>
-                                      - 프로젝트 인원 : 5명
-                                      <br/>
-                                      - 제작 기간 : 22.02.21 ~ 22.04.04
-                                      <br/>
-                                    </p>
-                                    <div class="pj1-skil-list">
-                                      <h5 class="pj1-skil-js" >JavaScript</h5>
-                                      <h5 class="pj1-skil-css" >Css</h5>
-                                      <h5 class="pj1-skil-html" >Html</h5>
-                                      <h5 class="pj1-skil-java" >Java</h5>
-                                      <h5 class="pj1-skil-sql" >SQL</h5>
-                                      <h5 class="pj1-skil-jsp" >JSP</h5>
-                                      <h5 class="pj1-skil-xml" >XML</h5>
-                                    </div>
-                                  </figcaption>
-                                  <a href="./eeem.html" target="_blank"></a>
-                                </figure>
-                              </div>
-                            </div>
-                            <div class="pj1">
-                              <div>
-                                <figure class="snip1384">
-                                  <img src="./image/pjimage-04.png" alt="sample83" />
-                                  <figcaption>
-                                    <h3>온라인 쇼핑몰 프로젝트 1차(PPT)</h3>
-                                    <p>
-                                      명품 가방 구매 쇼핑몰로 상품 및 메뉴 추가 관리가 가능하고 상품을 구매할 수 있는 웹 사이트 입니다.
-                                      <br/>
-                                    </p>
-                                    <p>
-                                      - 프로젝트 인원 : 6명
-                                      <br/>
-                                      - 제작 기간 : 21.12.21 ~ 21.01.21
-                                      <br/>
-                                    </p>
-                                    <div class="pj1-skil-list">
-                                      <h5 class="pj1-skil-js" >JavaScript</h5>
-                                      <h5 class="pj1-skil-css" >Css</h5>
-                                      <h5 class="pj1-skil-html" >Html</h5>
-                                      <h5 class="pj1-skil-java" >Java</h5>
-                                      <h5 class="pj1-skil-sql" >SQL</h5>
-                                      <h5 class="pj1-skil-jsp" >JSP</h5>
-                                      <h5 class="pj1-skil-xml" >XML</h5>
-                                    </div>
-                                  </figcaption>
-                                  <a href="./guddi.html" target="_blank"></a>
-                                </figure>
-                              </div>
-                            </div>
+                          </li>
+                          <div class="skill-p">
+                            <p>
+                              ES6+ 문법을 바탕으로 DOM 조작, 이벤트 처리, 비동기 프로그래밍(Async/Await) 등 <br/>
+                              웹 애플리케이션의 동적 기능을 구현할 수 있습니다
+                            </p>
                           </div>
+                          <li>
+                            <img src="./image/Vuejs2.png" alt="Vue">
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%; background-color: #40b883;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                          </li>
+                          <div class="skill-p">
+                            <p>
+                              컴포넌트 기반으로 재사용 가능한 UI를 구현 가능하며 <br/>
+                              Vue Router와 Vuex를 활용한 SPA(Single Page Application) 구현이 가능합니다.
+                            </p>
+                          </div>
+                          <li>
+                            <img src="./image/HTML2.png" alt="HTML">
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #f1652a;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                          </li>
+                          <div class="skill-p">
+                            <p>
+                              웹 접근성, 웹 표준을 준수하며, 시멘틱 태그를 이용해 마크업 할 수 있습니다.
+                            </p>
+                          </div>
+                          <li>
+                            <img src="./image/CSS2.png" alt="CSS">
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%; background-color: #359cd6;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                          </li>
+                          <div class="skill-p">
+                            <p>
+                              CSS 기본 구조와 속성을 이해하고 있으며, 애니메이션 등을 활용한 다양한 스타일과 동적 구현이 가능합니다. <br/>
+                              또한, 미디어 쿼리를 이용한 반응형 웹 개발도 문제없이 수행할 수 있습니다.
+                            </p>
+                          </div>
+                          <li>
+                            <img src="./image/FIGMA.png" alt="jquery">
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%; background-color: #a257ff;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                          </li>
+                          <div class="skill-p">
+                            <p>
+                              UI/UX 디자인이 가능하고 다양한 플러그인과 <br/>
+                              프로토타이핑 기능을 통해 디자인 작업을 효율적으로 수행할 수 있습니다.
+                            </p>
+                          </div>
+                        </ul>
                       </div>
                   </div>
-              </div>
-          </div>
-      </div>
-      <div data-include-path="footer.html"></div>
-      <a href="#" class="scrollToTop" ></a>
-    </main>
+                </div>
+                <!-- project 영역 -->
+                <div class="subBenner">
+                    <div class="stackList" id="projectList">
+                        <h3 style="margin-top: 80px;">PROJECT</h3>
+                    </div>
+                    <div class="item2">
+                        <div class="newList2">
+                          <div class="pj1"">
+                            <div>
+                              <figure class="snip1384">
+                                <img src="./image/pjimage-01.png" alt="sample83" />
+                                <figcaption>
+                                  <h3>포트폴리오 자기소개 사이트</h3>
+                                  <p>
+                                    저의 첫 포트폴리오 자기소개 페이지로 애플의 첫 시작화면을 모티브로 제작 하였고 새로운 기술을 적용하여 끊임없이 이어나가고 있습니다.
+                                    <br/>
+                                  </p>
+                                  <p>
+                                    - 프로젝트 인원 : Solo
+                                    <br/>
+                                    - 제작 기간 : 23.01.13 ~ 
+                                    <br/>
+                                  </p>
+                                  <div class="pj1-skil-list">
+                                    <h5 class="pj1-skil-js" >JavaScript</h5>
+                                    <h5 class="pj1-skil-css" >CSS</h5>
+                                    <h5 class="pj1-skil-html" >HTML</h5>
+                                    <h5 class="pj1-skil-jq" >Jquary</h5>
+                                  </div>
+                                </figcaption>
+                                <a href="projectInfo.html"></a>
+                              </figure>
+                            </div>
+                          </div>
+                          <div class="pj1" >
+                              <figure class="snip1384">
+                                <img src="./image/pjimage-03.png" alt="sample83" />
+                                <figcaption>
+                                  <h3>망그러진 곰 연예유형 테스트</h3>
+                                  <p>
+                                    자신의 평소 생활 패턴, 연예관을 인기 캐릭터인 망그러진 곰을 통해 알아 볼 수 있는 웹 애플리케이션 입니다.
+                                    <br/>
+                                  </p>
+                                  <p>
+                                    - 프로젝트 인원 : Solo
+                                    <br/>
+                                    - 제작 기간 : 24.07.12 ~ 24.07.26
+                                    <br/> 
+                                  </p>
+                                  <div class="pj1-skil-list">
+                                    <h5 class="pj1-skil-js" >JavaScript</h5>
+                                    <h5 class="pj1-skil-css" >CSS</h5>
+                                    <h5 class="pj1-skil-html" >HTML</h5>
+                                  </div>
+                                </figcaption>
+                                <a href="manggomInfo.html"></a>
+                              </figure>
+                          </div>
+                          <div class="pj1" >
+                            <div>
+                              <figure class="snip1384">
+                                <img src="./image/pjimage-02.png" alt="sample83" style="width: 350px;"/>
+                                <figcaption>
+                                  <h3>Do It Just 할일관리 앱</h3>
+                                  <p>
+                                    Vue.js를 사용한 간단한 CRUD프로젝트로 로컬스토리지에 데이터를 저장 가능한 컴포넌트 기반 할 일 관리 애플리케이션 입니다.
+                                    <br/>
+                                  </p>
+                                  <p>
+                                    - 프로젝트 인원 : Solo
+                                    <br/>
+                                    - 제작 기간 : 24.08.19 ~ 24.08.26
+                                    <br/> 
+                                  </p>
+                                  <div class="pj1-skil-list">
+                                    <h5 class="pj1-skil-js" >JavaScript</h5>
+                                    <h5 class="pj1-skil-vue" >Vue.js</h5>
+                                    <h5 class="pj1-skil-css" >CSS</h5>
+                                    <h5 class="pj1-skil-html" >HTML</h5>
+                                  </div>
+                                </figcaption>
+                                <a href="JustDoItInfo.html"></a>
+                              </figure>
+                            </div>
+                          </div>
+                          <div class="pj1" >
+                            <div>
+                              <figure class="snip1384">
+                                <img src="./image/eeem/eeem-01.png" alt="sample83" />
+                                <figcaption>
+                                  <h3>소모임 온라인 프로젝트 2차 (PPT)</h3>
+                                  <p>
+                                    다양한 모임들을 분야, 지역별 검색을 통해 자신이 원하는 모임을 개설, 참여 가능한 웹 사이트 입니다.
+                                    <br/>
+                                  </p>
+                                  <p>
+                                    - 프로젝트 인원 : 5명
+                                    <br/>
+                                    - 제작 기간 : 22.02.21 ~ 22.04.04
+                                    <br/>
+                                  </p>
+                                  <div class="pj1-skil-list">
+                                    <h5 class="pj1-skil-js" >JavaScript</h5>
+                                    <h5 class="pj1-skil-css" >Css</h5>
+                                    <h5 class="pj1-skil-html" >Html</h5>
+                                    <h5 class="pj1-skil-java" >Java</h5>
+                                    <h5 class="pj1-skil-sql" >SQL</h5>
+                                    <h5 class="pj1-skil-jsp" >JSP</h5>
+                                    <h5 class="pj1-skil-xml" >XML</h5>
+                                  </div>
+                                </figcaption>
+                                <a href="./eeem.html" target="_blank"></a>
+                              </figure>
+                            </div>
+                          </div>
+                          <div class="pj1">
+                            <div>
+                              <figure class="snip1384">
+                                <img src="./image/pjimage-04.png" alt="sample83" />
+                                <figcaption>
+                                  <h3>온라인 쇼핑몰 프로젝트 1차(PPT)</h3>
+                                  <p>
+                                    명품 가방 구매 쇼핑몰로 상품 및 메뉴 추가 관리가 가능하고 상품을 구매할 수 있는 웹 사이트 입니다.
+                                    <br/>
+                                  </p>
+                                  <p>
+                                    - 프로젝트 인원 : 6명
+                                    <br/>
+                                    - 제작 기간 : 21.12.21 ~ 21.01.21
+                                    <br/>
+                                  </p>
+                                  <div class="pj1-skil-list">
+                                    <h5 class="pj1-skil-js" >JavaScript</h5>
+                                    <h5 class="pj1-skil-css" >Css</h5>
+                                    <h5 class="pj1-skil-html" >Html</h5>
+                                    <h5 class="pj1-skil-java" >Java</h5>
+                                    <h5 class="pj1-skil-sql" >SQL</h5>
+                                    <h5 class="pj1-skil-jsp" >JSP</h5>
+                                    <h5 class="pj1-skil-xml" >XML</h5>
+                                  </div>
+                                </figcaption>
+                                <a href="./guddi.html" target="_blank"></a>
+                              </figure>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AJAX 로 Footer include -->
+    <div data-include-path="footer.html"></div>
+  
+    <a href="#" class="scrollToTop" ></a>
+
+
+    
     </div>
   </body>
 
-  <script type="module" src="./JS/scroll.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./JS/scroll.js" type="module"></script>
   <script src="./JS/load.js"></script>
   <script src="./JS/banner.js"></script>
   <script src="./JS/scrollUp.js"></script>
