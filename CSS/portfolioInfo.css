@@ -6,7 +6,7 @@ p, a, button{
 }
 
 body{
-    height: 3500px;
+    min-height: 100vW;
     background: #f5f5f7;
     
     
@@ -31,12 +31,13 @@ h2{
 
 .header{ 
     z-index: 1;
-    top: 10px;
+    top: 0px;
     position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid gainsboro;
+    background-color: #f5f5f7;
 }
 .header ul{
     display: flex; 
@@ -374,21 +375,21 @@ h2{
     color: #f1652a;
 }
 
-
 /*뷰포트의 가로너비가 1025px 이상인 경우 적용 : 데스크탑 환경*/ 
-@media screen and (min-width: 1025px){}
-
-/*뷰포트의 가로너비가 769px 이상 1024px 이하 : 태블릿 환경*/ 
-@media screen and (min-width: 769px) and (max-width: 1024){
+@media screen and (max-width: 1025px){
+    .header ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 60px;
+    }
 }
+
 
 
 /*미디어 쿼리 모바일*/
 @media screen and (max-width:768px) {
-
-    body{
-        height: 2600px;
-    }
 
     .header{
         flex-direction: column;
@@ -546,10 +547,6 @@ h2{
 
 /* 모바일 소형 */
 @media screen and (max-width: 479px){
-
-    body{
-        height: 1800px;
-    }
 
     .main{
         margin-top: 50px;
