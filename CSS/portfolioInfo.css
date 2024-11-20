@@ -416,6 +416,10 @@ h2{
     margin-top: 100px;
 }
 
+.content4{
+    margin-top: 100px;
+}
+
 .dynamic{
     margin-top: 10px;
 }
@@ -431,6 +435,71 @@ h2{
 
 .dynamic-span{
     color: #f1652a;
+}
+
+/* 그리드 */
+
+.grid-conatiner img{
+    width: 60%;
+}
+
+.grid-conatiner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 0.5fr 2fr 0.5fr ;
+    grid-gap: 10px;
+}
+
+.box2{
+    
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.box2 h3{
+    font-size: 2em;
+}
+
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box4{
+    justify-content: left;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.box4 p{
+    font-size: 1.5em;
+}
+
+.box5{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.box5 h3{
+    font-size: 2em;
+}
+
+.box6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box8{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 /*뷰포트의 가로너비가 1025px 이상인 경우 적용 : 데스크탑 환경*/ 
