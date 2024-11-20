@@ -285,6 +285,8 @@ h2{
     font-size: 25px;
 }
 
+
+
 .main-content-buttonGroup p{
     font-size: 25px; 
     line-height: 0px;
@@ -376,6 +378,7 @@ h2{
 
 .reason-ImgBox{
     display: flex;
+    justify-content: center;
 }
 
 .reason-ImgBox ul{
@@ -413,11 +416,23 @@ h2{
 
 
 .content3{
-    margin-top: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 .content4{
-    margin-top: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.content5{
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.content6{
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 .dynamic{
@@ -487,11 +502,16 @@ h2{
 .box6{
     grid-column-start: 1;
     grid-column-end: 3;
+    justify-content: right;
 }
 
 .box8{
     grid-column-start: 4;
     grid-column-end: 6;
+}
+
+.box8 p{
+    font-size: 1.5em;
 }
 
 .box{
@@ -500,6 +520,64 @@ h2{
     align-items: center;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.prototype-contaniner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.prototype-contaniner h3{
+    font-size: 2em;
+}
+
+.sketch-Box{
+    width: 50%;
+}
+
+.sketch-Box img{
+    width: 75%;
+}
+
+.sketch-layout{
+    width: 45%;
+}
+
+
+.sketch-layout img{
+    width: 100%;
+}
+
+
+.layer-area{
+    width: 33%;
+    text-align: right;
+}
+
+.layer-area img{
+    width: 50%;
+}
+
+.layer-area h3{
+    margin-right: 5%;
+}
+
+.html-area{
+    width: 33%;
+}
+
+.html-area img{
+    width: 85%;
+}
+
+.css-area{
+    width: 33%; 
+    text-align: left;
+}
+
+.css-area img{
+    width: 40%;
 }
 
 /*뷰포트의 가로너비가 1025px 이상인 경우 적용 : 데스크탑 환경*/ 
