@@ -411,7 +411,7 @@
 
 .pj1{
   width: 30%;
-  height: 385px;
+  height: 355px;
   text-align: center;
   border-radius: 20px;
   margin: 15px;
@@ -1319,8 +1319,8 @@ input.button-add:hover{
   }
 
   .product2{
-    width: 98%;
-    margin-left: 15px;
+    width: 95%;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 

@@ -76,7 +76,7 @@ figure.snip1384 {
     transform: translateY(40px);
   }
 
-  figure.snip1384 h5 {
+  figure.snip1384 span {
     font-size: 0.8em;
     font-weight: 300;
     letter-spacing: 1px;
@@ -126,7 +126,7 @@ figure.snip1384 {
   
   figure.snip1384:hover h3,
   figure.snip1384.hover h3,
-  figure.snip1384:hover h5,
+  figure.snip1384:hover span,
   figure.snip1384:hover p,
   figure.snip1384.hover p,
   figure.snip1384:hover i,
