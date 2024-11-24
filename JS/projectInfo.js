@@ -10,15 +10,8 @@ let observer =  new IntersectionObserver((e)=> {
 })
 
 let div =  document.querySelectorAll('.as')
-let pj = document.querySelectorAll('.pj1')
 
 
-observer.observe(pj[0])
-observer.observe(pj[1])
-observer.observe(pj[2])
-observer.observe(pj[3])
-observer.observe(pj[4])
-observer.observe(pj[5])
 observer.observe(div[0]) //html요소가 화면에 등장하는지 감시
 observer.observe(div[1])
 observer.observe(div[2])
