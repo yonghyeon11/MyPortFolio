@@ -19,4 +19,5 @@ observe.observe(pj[2])
 observe.observe(pj[3])
 observe.observe(pj[4])
 observe.observe(pj[5])
+observe.observe(pj[6])
 

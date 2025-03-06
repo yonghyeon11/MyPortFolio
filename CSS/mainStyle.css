@@ -687,6 +687,14 @@ iframe{
   text-align: center;
 }
 
+.pj1-skil-gsap{
+  border: 1px solid green;
+  width: 80px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
 .pj1-skil-java{
   border: 1px solid red;
   width: 80px;
